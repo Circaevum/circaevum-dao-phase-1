@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
+import matplotlib.colors as mcolors  # Import the colors module
 
 def hex_rings(rings, circle_radius=1):
     """
@@ -11,7 +12,7 @@ def hex_rings(rings, circle_radius=1):
         y = sqrt(3)*r
     so that the distance between touching circles is 2.
     
-    For rings == 3, you get the center plus 3 rings with counts 6, 12, and 18 circles.
+    For rings == 4, you get the center plus 4 rings with counts 6, 12, 18, and 24 circles.
     """
     fig, ax = plt.subplots()
     ax.set_aspect('equal')
@@ -43,16 +44,17 @@ def hex_rings(rings, circle_radius=1):
     ax.set_ylim(-margin, margin)
     
     def on_click(event):
+        # Convert color names to hex values
+        colors = [mcolors.to_hex(c) for c in ['yellow', 'orange', 'black', 'gray', 'white']]
         for circle in circles:
             contains, _ = circle.contains(event)
             if contains:
                 current_color = circle.get_facecolor()
-                if current_color == (1.0, 1.0, 1.0, 1.0):  # white
-                    new_color = 'black'
-                elif current_color == (0.0, 0.0, 0.0, 1.0):  # black
-                    new_color = 'gray'
-                else:  # gray
-                    new_color = 'white'
+                # Convert RGBA to a hex color
+                current_color_name = mcolors.to_hex(current_color)
+                # Find the next color in the list
+                next_color_index = (colors.index(current_color_name) + 1) % len(colors)
+                new_color = colors[next_color_index]
                 circle.set_facecolor(new_color)
                 fig.canvas.draw_idle()
                 break
@@ -61,5 +63,5 @@ def hex_rings(rings, circle_radius=1):
     plt.axis('off')
     plt.show()
 
-# Draw the hexagonally packed circles: center + 3 rings (6, 12, 18 circles respectively)
-hex_rings(3, circle_radius=1)
+# Draw the hexagonally packed circles: center + 4 rings (6, 12, 18, 24 circles respectively)
+hex_rings(4, circle_radius=1)
