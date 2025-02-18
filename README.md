@@ -5,6 +5,38 @@ The Yin Yang Inspired Smart Contract for Phase 1 of Circaevum's DAO Governance
 
 Abstract: On a Quarterly basis, contributions towards the evolution of Circaevum will be tallied, future work will be scoped, votes will take place, and revenue will be dispersed. This YinYang inspired model is designed to incentivize long-term contributions, keep the company lean and balanced, provide an intuitive model for equity ownership, and provide a way to calculate the company valuation through the first Phase of its operation as a DAO.
 
+## Summary of Today's Updates to the Yin-Yang Model
+
+1. **Core Structure (Yang) – 18 Members**
+   - 6 Inner Core + 12 Outer Core + You.
+   - Each holds 2.7% equity and has governance power (voting rights).
+   - Participates in the Daylight-Moonlight Cycle for structured leadership rotation.
+
+2. **Passive Contributors & Investors (Yin)**
+   - Hold equity but no governance power.
+   - Receive profit-sharing payouts but cannot vote on core decisions.
+   - Can submit small-scale proposals but only Yang members vote.
+   - Path to Yang: Can be voted in based on contributions.
+
+3. **Daylight-Moonlight Cycle for Yang Members**
+   - 1 quarter Daylight Mode (active leadership, goal-focused).
+   - 2 quarters Moonlight Mode (support role, personal exploration).
+   - At the end of Moonlight Mode, they present plans for their next Daylight cycle.
+
+![Circles Yin-Yang](./circles-orbit.png)
+
+4. **Burn Rate for Inactive Yang Members**
+   - Two Exit Options:
+     - Cash Payout (immediate exit).
+     - Burn Rate Tied to Contribution (burns over the same number of quarters it took to earn).
+   - If inactive for 3 consecutive quarters, equity fully burns.
+   - Burned equity redistributed to active contributors or community treasury.
+
+5. **Uniform Yin Model for Investors**
+   - All Yin equity is the same—no investor tiers.
+   - Can lock up equity for better rewards but still no governance power.
+   - Maintains balance between financial participation and governance control.
+
 Yin-Yang Characteristics
 - Yin = adaptive, darkness, source of emergence
 - This takes up half of a Yin Yang, with a small hole where Yin coagulates into a ball of Yang, which is independent of the other half of the Yin Yang, which also includes a hole
@@ -18,9 +50,12 @@ Yin-Yang Geometry
 - If the radius = ½, then the percentage = 0.69%
 - If the radius = 1, then the percentage = 2.77%
 - If the radius = 2, then the percentage = 11.11%
+- If there are 37 circles (with one in the center), then each cirlce is roughly 2.7% of the total area.
+
+![Circles Orbit](./circles-yinyang.png)
 
 Corporate Governance Significance
-- Yin represents Quarterly accumulated contributions from members of the Circaevum team. This is estimated as points calculated based on the time and rate of influence on Circaevum’s growth, which is estimated by the team at the beginning of a quarter when the work is scoped out, and re-evaluated at the end to sure up numbers. 
+- Yin represents Quarterly accumulated contributions from members of the Circaevum team. This is estimated as points calculated based on the time and rate of influence on Circaevum's growth, which is estimated by the team at the beginning of a quarter when the work is scoped out, and re-evaluated at the end to sure up numbers. 
 - Yang represents long-term ownership in the voting rights of the DAO. 
 - During a Quarterly review, accumulated Yin contributions can be converted into direct payments (if profits are sufficient), or Yin can be converted into Yang based on the Yin-toYang Conversion Formula
 
@@ -33,7 +68,7 @@ Yin-to-Yang Conversion Formula
 Quarterly Development Review Sequence of Events
 - All Revenue enters the Treasury, and payments to Costs for the Quarter are deployed. The remaining Profits will be set aside for Steps 4 and 5
 - The accumulated contributions of the previous Quarter are tallied up
-- Yang token holders vote on the next Quarter’s needs, and estimated costs are set aside from Profits (Yin equivalents using Yin-toYang formula are included in vote regardless of Yin consumption decision)
+- Yang token holders vote on the next Quarter's needs, and estimated costs are set aside from Profits (Yin equivalents using Yin-toYang formula are included in vote regardless of Yin consumption decision)
 - 1st half of remaining Profits is set aside for Yin token holders to vote on.
     - Option 1 - Yin holder can convert Yin to Yang for long-term incentives
     - Option 2 - Yin holder can cash out their portion of this 1st half of Profits
