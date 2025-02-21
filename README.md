@@ -1,5 +1,5 @@
 # circaevum-dao-phase-1
-The Yin Yang Inspired Smart Contract for Phase 1 of Circaevum's DAO Governance
+The Yin Yang Inspired Smart Contract for Phase 1 of Circaevum's DAO Governance - to be launched on February 28, 2025 - on the Grand Planetary Parade where all 7 planets will appear in a line in the sky.
 
 ![4o Yin-Yang Art](./images/4o-yin-yang-art.png)
 
@@ -17,14 +17,15 @@ This Yin-Yang inspired model is designed to:
 ---
 
 ### Yin-Yang Characteristics
-- Yin = adaptive, darkness, source of emergence
+**Yin**: Adaptive, darkness, source of emergence
 - Yin represents the individual. Their contributions are tracked, and can earn them 1 Yin token per quarter.
 - This takes up half of a Yin Yang, with a small hole where Yin coagulates into a ball of Yang, which is independent of the other half of the Yin Yang, which also includes a hole
-- Yang = conservative, resistant to change, source of decay, full of light and density
+
+**Yang**: Conservative, resistant to change, source of decay, full of light and density
 - Yang represents the company. The overall company is a ball of energy with inertia, and it needs to shed effectively 1 Yang token per quarter to offer incentive to Yin pool.
 - The hole in Yang is to represent the portion of Yang that is lost to make way for the proportional incoming Yang.
 
-Dark Matter exists primarily for investment purposes. Investors can purchase voting rights and equity, but waive profit-sharing (to realize their long-term interest in the company).
+**Dark Matter**: Exists primarily for investment purposes. Investors can purchase voting rights and equity, but waive profit-sharing (to realize their long-term interest in the company).
 
 ### Token Characteristics
 ---
