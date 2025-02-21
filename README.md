@@ -46,6 +46,7 @@ This Yin-Yang inspired model is designed to:
 - When stacking 36 circles, the hexagonal arrangement naturally finds balance with 37 circles (one in the middle). Naturally, this comes as a simple way to establish the CEO role as the 37th circle. With 1/37 = 0.027027027 repeating, to make it simple 2.7% is attributed to each circle, with the remainder added to the CEO's share (2.71%)to serve as a tie breaker in close votes.
 
 ![Circles Yin-Yang](./images/circles-yinyang-orbit-gray.png)
+
 (imagine each of the gray circles [Yin] is actually 3 circles stacked on top of each other)
 
 ### Corporate Governance Significance
@@ -54,8 +55,9 @@ This Yin-Yang inspired model is designed to:
 - During a Quarterly review, accumulated Yin contributions can be converted into direct payments (if profits are sufficient), or Yin can be converted into Yang based on the Yin-toYang Conversion Formula
 
 ## Growth Progressions
-### Outer Core: First 6 team members
+### Outer Core: First 6 team members (CEO is Inner Core)
 ![Outer Core](./images/circles-core7.png)
+
 Each Outer Core team member can earn up to 5.4% (two Yang tokens), and can be burned at a rate of 0.45% per quarter (0.45% x 6 = 2.7%). In total, their value in the company equals 32.4%. Until the Core is full, each Outer Core member will get 14% of the voting rights, and the Inner Core will get 16% in voting rights to total 100%.
 
 **Round One**
@@ -68,6 +70,7 @@ Each Outer Core team member can earn up to 5.4% (two Yang tokens), and can be bu
 
 ### Mantle: Next 12 team members
 ![Mantle](./images/circles-mantle19.png)
+
 Each Mantle team member can earn up to 2.7% (one Yang token). Making a total of 18 active slots, the burn rate now decreases to 0.15% per quarter (0.15% x 18 = 2.7%). In total, the Mantle's value in the company also equals 32.4%. Until the Mantle is full, the Core votes will adjust to 7% (Outer) and 10% (Inner), with Mantle votes amounting to 4% each, so the total remains 100%.
 
 **Round Two**
@@ -82,6 +85,7 @@ Each Mantle team member can earn up to 2.7% (one Yang token). Making a total of 
 ### Biosphere: Next 18 team members
 
 ![Biosphere](./images/circles-orbit.png)
+
 Each Biosphere team member can earn up to 1.8% (two Yin tokens). Making a total of 36 active slots, the burn rate now decreases to 0.075% per quarter (0.075% x 36 = 2.7%). In total, their value in the company also equals 32.4%. In this phase, everyone gets 2.7%, with the Inner Core at 2.71%, again totaling to 100%.
 
 **Round Three**
