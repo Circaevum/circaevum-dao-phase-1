@@ -63,5 +63,5 @@ def hex_rings(rings, circle_radius=1):
     plt.axis('off')
     plt.show()
 
-# Draw the hexagonally packed circles: center + 4 rings (6, 12, 18, 24 circles respectively)
-hex_rings(4, circle_radius=1)
+# Draw the hexagonally packed circles: center + 2 rings (6 and 12 circles respectively)
+hex_rings(5, circle_radius=1)
