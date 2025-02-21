@@ -4,14 +4,13 @@ The Yin Yang Inspired Smart Contract for Phase 1 of Circaevum's DAO Governance -
 ![4o Yin-Yang Art](./images/4o-yin-yang-art.png)
 
 📌 **Abstract**:
-On a Quarterly basis, contributions towards the evolution of Circaevum will be tallied, future work will be scoped, votes will take place, and revenue will be dispersed.
+On a Quarterly basis, contributions towards the evolution of Circaevum will be tallied, future work will be scoped, votes will take place, revenue will be dispersed, and equity will shift.
 
 This Yin-Yang inspired model is designed to:
 - Provide a framework to simplify and streamline this process
 - Incentivize long-term contributions
 - Keep the company lean and balanced
-- Provide an intuitive model for equity ownership
-- Create a valuation method for Phase 1 as a DAO
+- Provide an intuitive model for equity distribution
 - Be visualized using Circaevum, naturally
 
 ---
