@@ -1,9 +1,9 @@
 # circaevum-dao-phase-1
-The Yin Yang Inspired Smart Contract for Phase 1 of Circaevum's DAO Governance - to be launched on February 28, 2025 - on the Grand Planetary Parade where all 7 planets will appear in a line in the sky.
+The Yin Yang Inspired Smart Contract for Phase 1 of Circaevum's DAO Governance - to be launched on February 28, 2025 - on the Grand Planetary Parade where all 7 planets will appear in a line in the sky. First quarterly meeting will be sometime late March or early April 2025.
 
 ![4o Yin-Yang Art](./images/4o-yin-yang-art.png)
 
-📌 **Abstract**:
+**Abstract**:
 On a Quarterly basis, contributions towards the evolution of Circaevum will be tallied, future work will be scoped, votes will take place, revenue will be dispersed, and equity will shift.
 
 This Yin-Yang inspired model is designed to:
@@ -24,7 +24,14 @@ This Yin-Yang inspired model is designed to:
 - Yang represents the company. The overall company is a ball of energy with inertia, and it needs to shed effectively 1 Yang token per quarter to offer incentive to Yin pool.
 - The hole in Yang is to represent the portion of Yang that is lost to make way for the proportional incoming Yang.
 
-**Dark Matter**: Exists primarily for investment purposes. Investors can purchase voting rights and equity, but waive profit-sharing (to realize their long-term interest in the company).
+### Other Components
+
+**Orbit**:
+Not quite sure how orbit works entirely, but generally serves as a buffer for the company to grow into. It's where new team members can express interest, complete assignments, gain access to the company, and generally grow into the company.
+
+**Dark Matter**:
+This is for the investors. They can wield great power, which we don't fully understand. Not even sure where they show up on the circles. Maybe they are the reason for the nature of the hexagon. Either way, investors can purchase voting rights and equity, but waive profit-sharing (to realize their long-term interest in the company).
+
 
 ### Token Characteristics
 ---
@@ -48,31 +55,25 @@ This Yin-Yang inspired model is designed to:
 
 (imagine each of the gray circles [Yin] is actually 3 circles stacked on top of each other)
 
-### Corporate Governance Significance
-- Yin represents Quarterly accumulated contributions from members of the Circaevum team. This is estimated as points calculated based on the time and rate of influence on Circaevum's growth, which is estimated by the team at the beginning of a quarter when the work is scoped out, and re-evaluated at the end to sure up numbers. 
-- Yang represents long-term ownership in the voting rights of the DAO. 
-- During a Quarterly review, accumulated Yin contributions can be converted into direct payments (if profits are sufficient), or Yin can be converted into Yang based on the Yin-toYang Conversion Formula
 
 ## Growth Progressions
-### Outer Core: First 6 team members (CEO is Inner Core)
+### Round One: Outer Core - First 6 team members (CEO is Inner Core)
 ![Outer Core](./images/circles-core7.png)
 
 Each Outer Core team member can earn up to 5.4% (two Yang tokens), and can be burned at a rate of 0.45% per quarter (0.45% x 6 = 2.7%). In total, their value in the company equals 32.4%. Until the Core is full, each Outer Core member will get 14% of the voting rights, and the Inner Core will get 16% in voting rights to total 100%.
 
-**Round One**
 | Member Type    | Count | Voting Power per Member (%) | Total Power (%) |
 |----------------|-------|-----------------------------|-----------------|
 | Inner Core     | 1     | 16%                         | 16%             |
 | Outer Core     | 6     | 14%                         | 84%             |
 | **Total**      |       |                             | **100%**        |
 
-
-### Mantle: Next 12 team members
+---
+### Round Two: Mantle - Next 12 team members
 ![Mantle](./images/circles-mantle19.png)
 
 Each Mantle team member can earn up to 2.7% (one Yang token). Making a total of 18 active slots, the burn rate now decreases to 0.15% per quarter (0.15% x 18 = 2.7%). In total, the Mantle's value in the company also equals 32.4%. Until the Mantle is full, the Core votes will adjust to 7% (Outer) and 10% (Inner), with Mantle votes amounting to 4% each, so the total remains 100%.
 
-**Round Two**
 | Member Type    | Count | Voting Power per Member (%) | Total Power (%) |
 |----------------|-------|-----------------------------|-----------------|
 | Inner Core     | 1     | 10%                         | 10%             |
@@ -80,14 +81,13 @@ Each Mantle team member can earn up to 2.7% (one Yang token). Making a total of 
 | Mantle         | 12    | 4%                          | 48%             |
 | **Total**      |       |                             | **100%**        |
 
-
-### Biosphere: Next 18 team members
+---
+### Round Three: Biosphere - Next 18 team members
 
 ![Biosphere](./images/circles-orbit.png)
 
 Each Biosphere team member can earn up to 1.8% (two Yin tokens). Making a total of 36 active slots, the burn rate now decreases to 0.075% per quarter (0.075% x 36 = 2.7%). In total, their value in the company also equals 32.4%. In this phase, everyone gets 2.7%, with the Inner Core at 2.71%, again totaling to 100%.
 
-**Round Three**
 | Member Type    | Count | Voting Power per Member (%) | Total Power (%) |
 |----------------|-------|-----------------------------|-----------------|
 | Inner Core     | 1     | 2.71%                       | 2.71%           |
@@ -96,12 +96,7 @@ Each Biosphere team member can earn up to 1.8% (two Yin tokens). Making a total 
 | Biosphere      | 18    | 2.7%                        | 48.6%           |
 | **Total**      |       |                             | **100%**        |
 
-### Orbit
-Not quite sure how orbit works entirely, but generally serves as a buffer for the company to grow into. It's where new team members can express interest, complete assignments, gain access to the company, and generally grow into the company.
-
-### Dark Matter
-
-This is for the investors. They can wield great power, which we don't fully understand. Not even sure where they show up on the circles. Maybe they are the reason for the nature of the hexagon. 
+---
 
 
 
