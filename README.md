@@ -17,7 +17,7 @@ This Yin-Yang inspired model is designed to:
 
 ### Yin-Yang Characteristics
 **Yin**: Adaptive, darkness, source of emergence
-- Yin represents the individual. Their contributions are tracked, and can earn them 1 Yin token per quarter.
+- Yin represents the individual. Their contributions are tracked, and can earn them 1 Yin token per quarter. Current requirements are being considered between 250 and 500 hours of work (20-40hrs/week), or comparative deliverable(s).
 - This takes up half of a Yin Yang, with a small hole where Yin coagulates into a ball of Yang, which is independent of the other half of the Yin Yang, which also includes a hole
 
 **Yang**: Conservative, resistant to change, source of decay, full of light and density
