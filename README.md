@@ -27,10 +27,10 @@ This Yin-Yang inspired model is designed to:
 
 ### Yin-Yang Characteristics
 - Yin = adaptive, darkness, source of emergence
-- Yen represents the individual. Their contributions can be converted into Yang tokens at a 3:1 ratio.
+- Yin represents the individual. Their contributions can be converted into Yang tokens at a 3:1 ratio.
 - This takes up half of a Yin Yang, with a small hole where Yin coagulates into a ball of Yang, which is independent of the other half of the Yin Yang, which also includes a hole
 - Yang = conservative, resistant to change, source of decay, full of light and density
-- Yang represents the company. The overall company is a ball of energy with inertia, and it needs to shed affectively 1 Yang token per quarter to offer incentive to Yin pool.
+- Yang represents the company. The overall company is a ball of energy with inertia, and it needs to shed effectively 1 Yang token per quarter to offer incentive to Yin pool.
 - The hole in Yang is to represent the portion of Yang that is lost to make way for the proportional incoming Yang.
 
 Yin-Yang Geometry
@@ -104,8 +104,4 @@ Each Biosphere team member can earn up to 1.8% (two Yin tokens). Making a total 
 ### Contributor's Perspective
 Let's look at this model from the individual contributor's perspective. 
 If somebody spends 20 hours a week for a quarter, that's about 250 hours. 
-The first aproach to this was to aware 0.3% of Voting Rights and Profit-Sharing for every Quarter where a contributor delivered on this level of functionality. 
-
-Another approach is to attribute the Yin and Yang tokens based on systems that need to developed and guaranteed long-term support.
-
-At the end of the day, the goal is to design small lean teams 
+The first approach to this is to award 0.9% of Profit-Sharing (one Yin token) for every Quarter where a contributor delivered on this level of functionality.
