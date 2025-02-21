@@ -11,6 +11,7 @@ This Yin-Yang inspired model is designed to:
 - Incentivize long-term contributions
 - Keep the company lean and balanced
 - Provide an intuitive model for equity distribution
+- Serve as a flywheel for innovation and growth
 - Be visualized using Circaevum, naturally
 
 ---
