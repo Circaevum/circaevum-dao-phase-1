@@ -1,5 +1,5 @@
 # circaevum-dao-phase-1
-The Yin Yang Inspired Smart Contract for Phase 1 of Circaevum's DAO Governance - to be launched on February 28, 2025 - on the Grand Planetary Parade where all 7 planets will appear in a line in the sky. First quarterly meeting will be sometime late March or early April 2025.
+The Yin Yang (Taiji) Inspired Smart Contract for Phase 1 of Circaevum's DAO Governance - to be launched on February 28, 2025 - on the Grand Planetary Parade where all 7 planets will appear in a line in the sky. First quarterly meeting will be sometime late March or early April 2025.
 
 ![4o Yin-Yang Art](./images/4o-yin-yang-art.png)
 
@@ -14,16 +14,22 @@ This Yin-Yang inspired model is designed to:
 - Serve as a flywheel for innovation and growth
 - Be visualized using Circaevum, naturally
 
+Circaevum is a 3D graphics engine for Time. A system to aggregate, index, visualize, and navigate TimeStamps across datasets. As the Solana Blockshin emphasizes the use of TimeStamps for its Proof of History (PoH) consensus mechanism, this is a fitting system to incorporate Circaevum as a DAO with respect to. The Circaevum DAO is a Realms' Community Token DAO on the Solana blockchain.
 ---
 
 ### Yin-Yang Characteristics
 **Yin**: Adaptive, darkness, source of emergence
-- Yin represents the individual. Their contributions are tracked, and can earn them 1 Yin token per quarter. Current requirements are being considered between 250 and 500 hours of work (20-40hrs/week), or comparative deliverable(s).
+- Yin represents the individual. Using a typical scrum model, story points are evaluated and attributed to development tasks, and 1 YIN token is awarded for each story point. 750 story points (750 YIN tokens) are equivalent to 1 YANG token, and can be converted to YANG at any time as long as YANG eligibility permits.
+- YIN is the Community Token in Realms' Community Token DAO configuration.
 - This takes up half of a Yin Yang, with a small hole where Yin coagulates into a ball of Yang, which is independent of the other half of the Yin Yang, which also includes a hole
 
 **Yang**: Conservative, resistant to change, source of decay, full of light and density
-- Yang represents the company. The overall company is a ball of energy with inertia, and it needs to shed effectively 1 Yang token per quarter to offer incentive to Yin pool.
+- Yang represents the company. The overall company is a ball of energy with inertia, and it needs to shed effectively 1 YANG token per quarter to offer incentive to the YIN pool. For the early core development, YANG will be shed initially from Adam's initial shares, and then once those balance with those disspersed, YANG will begin to shed from the YANG pool.
+- YANG is the Council Token in Realms' Community Token DAO configuration.
 - The hole in Yang is to represent the portion of Yang that is lost to make way for the proportional incoming Yang.
+
+**Taiji Point**:
+- The Taiji Point is the center of the Yin Yang, and represents the CEO. The Taiji Point is the only token that is immune to decay mechanics.
 
 ### Other Components
 
@@ -38,11 +44,11 @@ This is for the investors. They can wield great power, which we don't fully unde
 ---
 | Token Type                          | Percentage Cap | # of Tokens Issued | Governance? | Equity? | Profit-Sharing? | Conversion Possible? | Transferable? | Burnable? | Decay Mechanic?                          |
 |-------------------------------------|----------------|--------------------|-------------|---------|-----------------|----------------------|---------------|-----------|------------------------------------------|
-| Origin                              | 2.71%          | 1                  | ✅ Yes      | ✅ Yes  | ✅ Yes          | ❌ No                | ✅ Yes        | ✅ Yes    | ❌ No                                   |
-| Yang                                | 2.7%           | 18                 | ✅ Yes      | ✅ Yes  | ✅ Yes          | ✅ Yes               | ✅ Yes        | ✅ Yes    | ✅ Yes (if inactive before fully earned) |
-| Yin                                 | 0.9%           | 54                 | ❌ No       | ❌ No   | ✅ Yes          | ✅ Yes               | ✅ Yes        | ✅ Yes    | ✅ Yes (depletes if inactive)            |
+| Taiji Point                         | 2.71%          | 1                  | ✅ Yes      | ✅ Yes  | ✅ Yes          | ❌ No                | ✅ Yes        | ✅ Yes    | ❌ No                                   |
+| YANG                                | 2.7%           | 18                 | ✅ Yes      | ✅ Yes  | ✅ Yes          | ✅ Yes               | ✅ Yes        | ✅ Yes    | ✅ Yes (if inactive before fully earned) |
+| YIN                                 | 0.9%           | 13,500             | ❌ No       | ❌ No   | ✅ Yes          | ✅ Yes               | ✅ Yes        | ✅ Yes    | ✅ Yes (depletes if inactive)            |
 | Dark Matter                         | 0.9%           | 54                | ✅ Yes      | ✅ Yes  | ❌ No           | ❌ No                | ✅ Yes        | ✅ Yes    | ❌ No                                   |
-| Origin Orbit                        | 0%             | 36                 | ❌ No       | ❌ No   | ❌ No           | Can Apply to Yin/Yang| ✅ Yes        | ✅ Yes    | ❌ No                                   |
+| Taiji Orbit                         | 0%             | 36                 | ❌ No       | ❌ No   | ❌ No           | Can Apply to Yin/Yang| ✅ Yes        | ✅ Yes    | ❌ No                                   |
 | Mantle Orbit                        | 0%             | Infinite           | ❌ No       | ❌ No   | ❌ No           | Can Apply to Yin/Yang| ✅ Yes        | ✅ Yes    | ❌ No                                   |
 ---
 
@@ -54,14 +60,14 @@ This is for the investors. They can wield great power, which we don't fully unde
 
 ![Circles Yin-Yang](./images/circles-yinyang-orbit-gray.png)
 
-(imagine each of the gray circles [Yin] is actually 3 circles stacked on top of each other)
+(imagine each of the gray circles [YIN] is actually 750 circles stacked on top of each other)
 
 
 ## Growth Progressions
 ### Round One: Outer Core - First 6 team members (CEO is Inner Core)
 ![Outer Core](./images/circles-core7.png)
 
-Each Outer Core team member can earn up to 5.4% (two Yang tokens), and can be burned at a rate of 0.45% per quarter (0.45% x 6 = 2.7%). In total, their value in the company equals 32.4%. Until the Core is full, each Outer Core member will get 14% of the voting rights, and the Inner Core will get 16% in voting rights to total 100%.
+Each Outer Core team member can earn up to 5.4% (two YANG tokens), and can be burned at a rate of 0.45% per quarter (0.45% x 6 = 2.7%). In total, their value in the company equals 32.4%. Until the Core is full, each Outer Core member will get 14% of the voting rights, and the Inner Core will get 16% in voting rights to total 100%.
 
 | Member Type    | Count | Voting Power per Member (%) | Total Power (%) |
 |----------------|-------|-----------------------------|-----------------|
@@ -73,7 +79,7 @@ Each Outer Core team member can earn up to 5.4% (two Yang tokens), and can be bu
 ### Round Two: Mantle - Next 12 team members
 ![Mantle](./images/circles-mantle19.png)
 
-Each Mantle team member can earn up to 2.7% (one Yang token). Making a total of 18 active slots, the burn rate now decreases to 0.15% per quarter (0.15% x 18 = 2.7%). In total, the Mantle's value in the company also equals 32.4%. Until the Mantle is full, the Core votes will adjust to 7% (Outer) and 10% (Inner), with Mantle votes amounting to 4% each, so the total remains 100%.
+Each Mantle team member can earn up to 2.7% (one YANG token). Making a total of 18 active slots, the burn rate now decreases to 0.15% per quarter (0.15% x 18 = 2.7%). In total, the Mantle's value in the company also equals 32.4%. Until the Mantle is full, the Core votes will adjust to 7% (Outer) and 10% (Inner), with Mantle votes amounting to 4% each, so the total remains 100%.
 
 | Member Type    | Count | Voting Power per Member (%) | Total Power (%) |
 |----------------|-------|-----------------------------|-----------------|
@@ -87,7 +93,7 @@ Each Mantle team member can earn up to 2.7% (one Yang token). Making a total of 
 
 ![Biosphere](./images/circles-orbit.png)
 
-Each Biosphere team member can earn up to 1.8% (two Yin tokens). Making a total of 36 active slots, the burn rate now decreases to 0.075% per quarter (0.075% x 36 = 2.7%). In total, their value in the company also equals 32.4%. In this phase, everyone gets 2.7%, with the Inner Core at 2.71%, again totaling to 100%.
+Each Biosphere team member can earn up to 1.8% (500 YIN tokens). Making a total of 36 active slots, the burn rate now decreases to 0.075% per quarter (0.075% x 36 = 2.7%). In total, their value in the company also equals 32.4%. In this phase, everyone gets 2.7%, with the Inner Core at 2.71%, again totaling to 100%.
 
 | Member Type    | Count | Voting Power per Member (%) | Total Power (%) |
 |----------------|-------|-----------------------------|-----------------|
@@ -105,14 +111,13 @@ Each Biosphere team member can earn up to 1.8% (two Yin tokens). Making a total 
 
 1. All Revenue enters the Treasury, and payments to Costs for the Quarter are deployed. The remaining Profits will be set aside for Steps 4 and 5
 2. The accumulated contributions of the previous Quarter are tallied up
-3. Yang token holders vote on the next Quarter's needs, and estimated costs are set aside from Profits (Yin equivalents using Yin-toYang formula are included in vote regardless of Yin consumption decision)
-4. 1st half of remaining Profits is set aside for Yin token holders (unless converting to Yang)
-5. 2nd half of profits is divided amongst Yang holders on burned 2.7% equivalent, then is voted on for future investments in the company.
-6. The YinYang rotates 90 degrees counterclockwise (or 60 maybe?)
-    - 60 would allow for 1 full circle to earn 2 Yang tokens, and even rotation mechanics of circles in hexagonal arrangement
+3. YANG token holders vote on the next Quarter's needs, and estimated costs are set aside from Profits (YIN equivalents using Yin-to-Yang conversion formula are included in vote regardless of YIN consumption decision)
+4. 1st half of remaining Profits is set aside for YIN token holders (unless converting to YANG)
+5. 2nd half of profits is divided amongst YANG holders on burned 2.7% equivalent, then is voted on for future investments in the company.
+6. The YinYang rotates 90 degrees counterclockwise 
 7. The Next Quarter begins
 ![Circles Orbit](./images/circles-quarter.png)
 
 
 ### Contributor's Perspective
-Every quarter of contributions an individual can be awarded 1 Yin token, which is valued at 0.9% of profit sharing. Upon reaching 3 Yin tokens, the contributor can convert these 3 Yin tokens into 1 Yang token, which is valued at 2.7% of equity and voting rights. So in 3 quarters, a contributor can have 1 Yang token, which is valued at 2.7% of the company. Further, if it's still Round 1 when they reach 3 more Yin tokens, they can convert those additional 3 Yin tokens into 1 additional Yang token, but are then capped at owning 2 Yang tokens. This is to keep the Core team balanced, and to reserve more incentive for the Mantle and Biosphere teams. Mantle members can earn 1 Yang token, and while Biosphere members can only earn 2 tokens, they can barter with eachother for the chance to secure any remaining Yang tokens that haven't been claimed yet. While Yang holders don't earn profit-sharing, they can still earn additional Yin tokens to get paid when the company is profitable. 
+Upon reaching 750 YIN tokens, the contributor can convert these 750 YIN tokens into 1 YANG token, which is valued at 2.7% of equity and voting rights. So in about a year, a contributor can have 1 YANG token, which is valued at 2.7% of the company. Further, if it's still Round 1 when they reach 750 more YIN tokens, they can convert those additional 750 YIN tokens into 1 additional YANG token, but are then capped at owning 2 YANG tokens, with a cap of 5.4% ownership via YANG tokens.This is to keep the Core team balanced, and to reserve more incentive for the Mantle and Biosphere teams. Mantle members can earn 1 YANG token, and while Biosphere members can only earn 2 tokens, they can barter with eachother for the chance to secure any remaining YANG tokens that haven't been claimed yet. While YANG holders don't earn profit-sharing, they can still earn additional YIN tokens to get paid when the company is profitable. 
