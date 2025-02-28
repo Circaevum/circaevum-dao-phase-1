@@ -14,7 +14,7 @@ This Yin-Yang inspired model is designed to:
 - Serve as a flywheel for innovation and growth
 - Be visualized using Circaevum, naturally
 
-Circaevum is a 3D graphics engine for Time. A system to aggregate, index, visualize, and navigate TimeStamps across datasets. As the Solana Blockshin emphasizes the use of TimeStamps for its Proof of History (PoH) consensus mechanism, this is a fitting system to incorporate Circaevum as a DAO with respect to. The Circaevum DAO is a Realms' Community Token DAO on the Solana blockchain.
+Circaevum is a 3D graphics engine for Time. A system to aggregate, index, visualize, and navigate TimeStamps across datasets. As the Solana Blockshin emphasizes the use of TimeStamps for its Proof of History (PoH) consensus mechanism, this is a fitting system to incorporate Circaevum as a DAO with respect to. The Circaevum DAO is a Realms' Community Token DAO on the Solana blockchain, and can be found here: https://app.realms.today/dao/FDerj19PyQytsD1rL4NGpSeXWT8d7WdRABBxxCEnDj6d
 
 ---
 
@@ -29,10 +29,8 @@ Circaevum is a 3D graphics engine for Time. A system to aggregate, index, visual
 - YANG is the Council Token in Realms' Community Token DAO configuration.
 - The hole in Yang is to represent the portion of Yang that is lost to make way for the proportional incoming Yang.
 
-**Taiji Point**:
-- The Taiji Point is the center of the Yin Yang, and represents the CEO. The Taiji Point is the only token that is immune to decay mechanics.
 
-
+![](./images/yinyangcoins.png)
 ### Token Characteristics
 ---
 | Token Type                          | Percentage Cap | # of Tokens Issued | Governance? | Equity? | Profit-Sharing? | Conversion Possible? | Transferable? | Burnable? | Decay Mechanic?                          |
@@ -51,6 +49,9 @@ Circaevum is a 3D graphics engine for Time. A system to aggregate, index, visual
 ![Circles Yin-Yang](./images/circles-yinyang-orbit-gray.png)
 
 (imagine each of the gray circles [YIN] is actually 750 circles stacked on top of each other)
+
+**Taiji Point**:
+- The Taiji Point is the center of the Yin Yang, and represents the CEO. The Taiji Point is the only token that is immune to decay mechanics.
 
 
 ## Growth Progressions
