@@ -15,6 +15,7 @@ This Yin-Yang inspired model is designed to:
 - Be visualized using Circaevum, naturally
 
 Circaevum is a 3D graphics engine for Time. A system to aggregate, index, visualize, and navigate TimeStamps across datasets. As the Solana Blockshin emphasizes the use of TimeStamps for its Proof of History (PoH) consensus mechanism, this is a fitting system to incorporate Circaevum as a DAO with respect to. The Circaevum DAO is a Realms' Community Token DAO on the Solana blockchain.
+
 ---
 
 ### Yin-Yang Characteristics
@@ -31,14 +32,6 @@ Circaevum is a 3D graphics engine for Time. A system to aggregate, index, visual
 **Taiji Point**:
 - The Taiji Point is the center of the Yin Yang, and represents the CEO. The Taiji Point is the only token that is immune to decay mechanics.
 
-### Other Components
-
-**Orbit**:
-Not quite sure how orbit works entirely, but generally serves as a buffer for the company to grow into. It's where new team members can express interest, complete assignments, gain access to the company, and generally grow into the company.
-
-**Dark Matter**:
-This is for the investors. They can wield great power, which we don't fully understand. Not even sure where they show up on the circles. Maybe they are the reason for the nature of the hexagon. Either way, investors can purchase voting rights and equity, but waive profit-sharing (to realize their long-term interest in the company).
-
 
 ### Token Characteristics
 ---
@@ -47,9 +40,6 @@ This is for the investors. They can wield great power, which we don't fully unde
 | Taiji Point                         | 2.71%          | 1                  | ✅ Yes      | ✅ Yes  | ✅ Yes          | ❌ No                | ✅ Yes        | ✅ Yes    | ❌ No                                   |
 | YANG                                | 2.7%           | 18                 | ✅ Yes      | ✅ Yes  | ✅ Yes          | ✅ Yes               | ✅ Yes        | ✅ Yes    | ✅ Yes (if inactive before fully earned) |
 | YIN                                 | 0.9%           | 13,500             | ❌ No       | ❌ No   | ✅ Yes          | ✅ Yes               | ✅ Yes        | ✅ Yes    | ✅ Yes (depletes if inactive)            |
-| Dark Matter                         | 0.9%           | 54                | ✅ Yes      | ✅ Yes  | ❌ No           | ❌ No                | ✅ Yes        | ✅ Yes    | ❌ No                                   |
-| Taiji Orbit                         | 0%             | 36                 | ❌ No       | ❌ No   | ❌ No           | Can Apply to Yin/Yang| ✅ Yes        | ✅ Yes    | ❌ No                                   |
-| Mantle Orbit                        | 0%             | Infinite           | ❌ No       | ❌ No   | ❌ No           | Can Apply to Yin/Yang| ✅ Yes        | ✅ Yes    | ❌ No                                   |
 ---
 
 ### Yin-Yang Geometry
