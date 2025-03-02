@@ -5,9 +5,10 @@
 - **Contract Address:** `GovER5Lthms3bLBqWub97yVrMmEogzX7xNjdXpPPCVZw`
 - **Deployed On:** February 27, 2025
 
-# circaevum-dao-phase-1
+# Circaevum DAO - Phase 1
 The Circaevum DAO operates on a Taiji-inspired governance model (YinYang), emphasizing balance and cyclical progression. The first quarterly meeting will be sometime late March or early April 2025.
 
+> **Legal Status**: This DAO is in the process of being registered as a Wyoming Decentralized Autonomous Organization LLC. The formal Addendum to Articles of Organization can be found in the repository as [Addendum.md](./Addendum.md).
 
 ![4o Yin-Yang Art](./images/4o-yin-yang-art.png)
 
@@ -22,7 +23,13 @@ This Yin-Yang inspired model is designed to:
 - Serve as a flywheel for innovation and growth
 - Be visualized using Circaevum, naturally
 
-Circaevum is a 3D graphics engine for Time. A system to aggregate, index, visualize, and navigate TimeStamps across datasets. As the Solana Blockshin emphasizes the use of TimeStamps for its Proof of History (PoH) consensus mechanism, this is a fitting system to incorporate Circaevum as a DAO with respect to. The Circaevum DAO is a Realms' Community Token DAO on the Solana blockchain, and can be found here: https://app.realms.today/dao/FDerj19PyQytsD1rL4NGpSeXWT8d7WdRABBxxCEnDj6d
+Circaevum is a 3D graphics engine for Time. A system to aggregate, index, visualize, and navigate TimeStamps across datasets. As the Solana Blockchain emphasizes the use of TimeStamps for its Proof of History (PoH) consensus mechanism, this is a fitting system to incorporate Circaevum as a DAO with respect to. The Circaevum DAO is a Realms' Community Token DAO on the Solana blockchain, and can be found here: https://app.realms.today/dao/FDerj19PyQytsD1rL4NGpSeXWT8d7WdRABBxxCEnDj6d
+
+---
+
+### Technical Implementation Note
+
+While this technical implementation provides the foundation for the governance structure, not all aspects of the governance model described in this document are directly enforced on-chain. Many governance decisions, including token distributions, equity adjustments, and quarterly assessments, will occur through formal quarterly meetings, with the results being reflected in token distributions and meeting notes. The official documentation, including any updates to this governance model, can be found at https://github.com/Circaevum/circaevum-dao-phase-1
 
 ---
 
@@ -104,8 +111,6 @@ Each Biosphere team member can earn up to 1.8% (500 YIN tokens). Making a total 
 
 ---
 
-
-
 ## Quarterly Development Review Sequence
 
 1. All Revenue enters the Treasury, and payments to Costs for the Quarter are deployed. The remaining Profits will be set aside for Steps 4 and 5
@@ -126,3 +131,4 @@ Upon reaching 750 YIN tokens, the contributor can convert these 750 YIN tokens i
 - [Circaevum Whitepaper](https://your-whitepaper-url.com)
 - [User Guide](https://your-user-guide-url.com)
 - [Developer Documentation](https://your-developer-docs-url.com)
+- [Articles of Incorporation](./Addendum.md)
