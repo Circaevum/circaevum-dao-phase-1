@@ -1,5 +1,13 @@
+## Smart Contract Information
+
+- **Contract Name:** Circaevum DAO Governance Token
+- **Network:** Solana Mainnet
+- **Contract Address:** `GovER5Lthms3bLBqWub97yVrMmEogzX7xNjdXpPPCVZw`
+- **Deployed On:** February 27, 2025
+
 # circaevum-dao-phase-1
-The Yin Yang (Taiji) Inspired Smart Contract for Phase 1 of Circaevum's DAO Governance - to be launched on February 28, 2025 - on the Grand Planetary Parade where all 7 planets will appear in a line in the sky. First quarterly meeting will be sometime late March or early April 2025.
+The Circaevum DAO operates on a Taiji-inspired governance model (YinYang), emphasizing balance and cyclical progression. The first quarterly meeting will be sometime late March or early April 2025.
+
 
 ![4o Yin-Yang Art](./images/4o-yin-yang-art.png)
 
@@ -20,7 +28,7 @@ Circaevum is a 3D graphics engine for Time. A system to aggregate, index, visual
 
 ### Yin-Yang Characteristics
 **Yin**: Adaptive, darkness, source of emergence
-- Yin represents the individual. Using a typical scrum model, story points are evaluated and attributed to development tasks, and 1 YIN token is awarded for each story point. 750 story points (750 YIN tokens) are equivalent to 1 YANG token, and can be converted to YANG at any time as long as YANG eligibility permits.
+- Yin represents the individual. Using a typical scrum model, story points are evaluated and attributed to development tasks, and 1 YIN token is awarded for each story point. 750 story points (750 YIN tokens) tracked using [Linear](https://linear.app/) are equivalent to 1 YANG token, and can be converted to YANG at any time as long as YANG eligibility permits.
 - YIN is the Community Token in Realms' Community Token DAO configuration.
 - This takes up half of a Yin Yang, with a small hole where Yin coagulates into a ball of Yang, which is independent of the other half of the Yin Yang, which also includes a hole
 
@@ -112,3 +120,9 @@ Each Biosphere team member can earn up to 1.8% (500 YIN tokens). Making a total 
 
 ### Contributor's Perspective
 Upon reaching 750 YIN tokens, the contributor can convert these 750 YIN tokens into 1 YANG token, which is valued at 2.7% of equity and voting rights. So in about a year, a contributor can have 1 YANG token, which is valued at 2.7% of the company. Further, if it's still Round 1 when they reach 750 more YIN tokens, they can convert those additional 750 YIN tokens into 1 additional YANG token, but are then capped at owning 2 YANG tokens, with a cap of 5.4% ownership via YANG tokens.This is to keep the Core team balanced, and to reserve more incentive for the Mantle and Biosphere teams. Mantle members can earn 1 YANG token, and while Biosphere members can only earn 2 tokens, they can barter with eachother for the chance to secure any remaining YANG tokens that haven't been claimed yet. While YANG holders don't earn profit-sharing, they can still earn additional YIN tokens to get paid when the company is profitable. 
+
+## Additional Resources
+
+- [Circaevum Whitepaper](https://your-whitepaper-url.com)
+- [User Guide](https://your-user-guide-url.com)
+- [Developer Documentation](https://your-developer-docs-url.com)
