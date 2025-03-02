@@ -109,7 +109,6 @@ This duality ensures that members engage in both creative and structured activit
 
 **Equity Dynamics**: Equity is fluid, adjusting based on the nature and impact of contributions, ensuring alignment with the DAO's evolving goals.
 
-**Balanced Participation**: Members are encouraged to engage in both Yin (creative) and Yang (structured) activities, fostering a well-rounded contribution spectrum.
 
 #### (iii) Activities of the decentralized autonomous organization and the conduct of those activities:
 
