@@ -59,20 +59,29 @@ The Circaevum DAO operates on a Taiji-inspired governance model, emphasizing bal
 **Yin-Yang Dynamics**:
 
 - **Yin (Adaptive)**: Encourages emergent, creative contributions that foster innovation.
-  - The YIN token (`8J2Xt2G3US2yWTwDtKxGUwwKCnNzNcoXwEMVPwV6HTzw`) functions as the Community Token. Members can earn 1 YIN for every 1 Story Point they have completed using a typical scrum methodology.
+  - The YIN token (`8J2Xt2G3US2yWTwDtKxGUwwKCnNzNcoXwEMVPwV6HTzw`) functions as the Community Token. Members can earn 1 YIN for each completed task.
   - YIN tokens represent 0.9% of total allocation, with 13,500 tokens issued.
   - YIN provides profit-sharing rights but no equity or direct governance.
   
 - **Yang (Structured)**: Focuses on structured, goal-oriented tasks ensuring stability and progress.
-  - The YANG token (`7E8nSaFbB1LwAKZXUVcH2jBkS9RR5FgzQi3xdHAToShX`) functions as the Council Token. Members can convert 750 YIN tokens for 1 YANG token.
+  - The YANG token (`7E8nSaFbB1LwAKZXUVcH2jBkS9RR5FgzQi5xdHAToShX`) functions as the Council Token. Members can convert 75 YIN tokens for 1 YANG token.
   - YANG tokens represent 2.7% of total allocation, with 18 tokens issued.
   - YANG provides governance rights, equity, and profit-sharing.
+  - YANG token holders must complete 18 tasks annually to maintain full token value.
+  - Base annual decay is 0.9% equity if no tasks are completed, reduced by 0.1% for every 2 tasks completed.
+  - After 3 years of zero activity, a YANG token would lose its entire 2.7% equity value.
+
+- **Wu Wei (Investment)**: Represents the investment and capital contribution aspect.
+  - Wu Wei tokens function as the investor governance mechanism.
+  - Wu Wei token values will be determined through negotiations between investors and majority equity holders.
+  - Wu Wei tokens represent 0.9% of total allocation, with 54 tokens issued.
+  - Wu Wei provides governance rights and equity but no profit-sharing.
   
 - **Taiji Point**: The central governing position representing 2.71% of total allocation, with 1 token issued.
   - Provides governance rights, equity, and profit-sharing.
   - Not subject to decay mechanics.
 
-This duality ensures that members engage in both creative and structured activities, promoting a harmonious and dynamic organizational environment.
+This multilateral approach ensures that members engage in both creative and structured activities, while investors provide capital support, promoting a harmonious and dynamic organizational environment.
 
 #### (ii) Rights and duties under this chapter of a person in their capacity as a member:
 
@@ -81,23 +90,6 @@ This duality ensures that members engage in both creative and structured activit
 - Participate in governance decisions through proposal submission and voting, as determined by token ownership.
 - Access and review DAO operational records and audits.
 - Receive profit distributions according to token holdings and the quarterly distribution mechanism.
-
-**Growth Progression and Voting Rights**:
-
-**Round One: Outer Core - First 6 team members (CEO is Inner Core)**
-- Inner Core (Taiji Point): 16% voting power
-- Outer Core (6 members): 14% voting power each, can earn up to 5.4% equity (two YANG tokens)
-
-**Round Two: Mantle - Next 12 team members**
-- Inner Core: 10% voting power
-- Outer Core: 7% voting power each
-- Mantle: 4% voting power each, can earn up to 2.7% equity (one YANG token)
-
-**Round Three: Biosphere - Next 18 team members**
-- Inner Core: 2.71% voting power
-- Outer Core: 2.7% voting power each
-- Mantle: 2.7% voting power each
-- Biosphere: 2.7% voting power each, can earn up to 1.8% equity (through YIN tokens)
 
 **Duties**:
 
@@ -108,7 +100,6 @@ This duality ensures that members engage in both creative and structured activit
 **Contribution Assessment**: Members' contributions are evaluated quarterly, influencing their equity and voting power.
 
 **Equity Dynamics**: Equity is fluid, adjusting based on the nature and impact of contributions, ensuring alignment with the DAO's evolving goals.
-
 
 #### (iii) Activities of the decentralized autonomous organization and the conduct of those activities:
 
@@ -180,12 +171,15 @@ This cyclical approach ensures continuous alignment with the DAO's mission and m
 
 #### (xi) All other aspects of the decentralized autonomous organization, including but not limited to modifications of the following default provisions in W.S. 17-31-11:
 
-- **Membership Interest Calculation**: Membership interests in this member-managed DAO shall be calculated according to the growth phase model outlined in section (ii), with specific percentages assigned based on position (Inner Core, Outer Core, Mantle, or Biosphere).
+- **Membership Interest Calculation**: Membership interests in this member-managed DAO shall be calculated according to the governance structure outlined in this document, with specific percentages assigned based on token ownership.
 - **Voting Rights without Digital Asset Contribution**: In instances where membership does not require a digital asset contribution, each member shall have one (1) membership interest and be entitled to one (1) vote.
 - **Quorum Requirement**: A quorum for any decision-making process shall require not less than a majority of membership interests entitled to vote.
-- **Decay Mechanics**: YANG tokens are subject to decay if inactive before being fully earned. YIN tokens deplete if inactive. The standard burn rate is 2.7% per quarter, averaged across all 36 tokens for each percentage domain (Governance, Equity, Profit Sharing) separately.
+- **Decay Mechanics**: 
+  - YANG tokens require 18 tasks annually to maintain full value. Base annual decay is 0.9% equity (1/3 of token value) if no tasks are completed, reduced by 0.1% for every 2 tasks completed.
+  - YIN tokens do not deplete and remain as earned by contributors.
+  - Wu Wei tokens are subject to potential dilution as determined by governance votes of YANG token holders.
 - **Additional Provisions**: Any further governance aspects not expressly covered herein shall be determined by future proposals and votes, in a manner consistent with this operating agreement and applicable law.
 
 ### Technical Implementation Note:
 
-The Circaevum DAO is implemented on the Solana Realms platform as a standard Community Token DAO, where YIN functions as the Community Token and YANG functions as the Council Token. While this technical implementation provides the foundation for the governance structure, not all aspects of the governance model described in this document are directly enforced on-chain. Many governance decisions, including token distributions, equity adjustments, and quarterly assessments, will occur through formal quarterly meetings, with the results being reflected in token distributions and meeting notes. The official documentation, including any updates to this governance model, can be found at https://github.com/Circaevum/circaevum-dao-phase-1
+The Circaevum DAO is implemented on the Solana Realms platform as a standard Community Token DAO, where YIN functions as the Community Token and YANG functions as the Council Token. While this technical implementation provides the foundation for the governance structure, not all aspects of the governance model described in this document are directly enforced on-chain. Many governance decisions, including token distributions, equity adjustments, and quarterly assessments, will occur through formal quarterly meetings, with the results being reflected in token distributions and meeting notes. The official documentation, including any updates to this governance model or GitHub repository, can be found at https://github.com/Circaevum/circaevum-dao-phase-1 and will only be updated based on a majority decision of governance token holders.
