@@ -65,21 +65,21 @@ While this technical implementation provides the foundation for the governance s
 ---
 | Token Type                          | Percentage Cap | # of Tokens Issued | Governance? | Equity? | Profit-Sharing? | Conversion Possible? | Transferable? | Burnable? | Decay Mechanic?                          |
 |-------------------------------------|----------------|--------------------|-------------|---------|-----------------|----------------------|---------------|-----------|------------------------------------------|
-| Taiji Point                         | 2.71%          | 1                  | ✅ Yes      | ✅ Yes  | ✅ Yes          | ❌ No                | ✅ Yes        | ✅ Yes    | ❌ No                                   |
+| Taiji Point                         | 2.8%           | 1                  | ✅ Yes      | ✅ Yes  | ✅ Yes          | ❌ No                | ✅ Yes        | ✅ Yes    | ❌ No                                   |
 | YANG                                | 2.7%           | 18                 | ✅ Yes      | ✅ Yes  | ✅ Yes          | ✅ Yes               | ✅ Yes        | ✅ Yes    | ✅ Yes (if inactive before fully earned) |
 | YIN                                 | N/A            | 1,350              | ❌ No       | ❌ No   | ✅ Yes          | ✅ Yes               | ✅ Yes        | ✅ Yes    | ❌ No                                    |
-| Wu Wei                              | 0.9%           | 54                 | ✅ Yes      | ✅ Yes  | ❌ No           | ✅ Yes               | ✅ Yes        | ✅ Yes    | ✅ Yes (potential dilution by governance)|
+| Wu Wei                              | 2.7%           | 18                 | ✅ Yes      | ✅ Yes  | ❌ No           | ✅ Yes               | ✅ Yes        | ✅ Yes    | ✅ Yes (potential dilution by governance)|
 ---
 
 ### Yin-Yang Geometry
 - In a standard Yin Yang model when examined along a line that bisects the center and each of the smaller circles, there are 6 equal segments of equal length in progression: White, Black, White, and then Black, White, Black. The single Black within the first half represents the diameter of the inner black circle (the Yin [black] within the surrounding Yang [white]). The single White within the second half represents the diameter of the inner white circle (the Yang [white] within the surrounding Yin [black]).
 - Using this geometry, we can assume that if the radius of an inner circle is 1 (½ of diameter), then the radius of the full circle is 6. 
 - Knowing this, the area of an inner circle is PI*r^2, or in this case PI*1^2. The area of the full circle is PI*6^2. To find the percentage of the inner circle to the outer, we find ourselves with (PI*1)/(PI*36), which simplifies to 1/36, or 2.77%
-- When stacking 36 circles, the hexagonal arrangement naturally finds balance with 37 circles (one in the middle). Naturally, this comes as a simple way to establish the CEO role as the 37th circle. With 1/37 = 0.027027027 repeating, to make it simple 2.7% is attributed to each circle, with the remainder added to the CEO's share (2.71%)to serve as a tie breaker in close votes.
+- When stacking 36 circles, the hexagonal arrangement naturally finds balance with 37 circles (one in the middle). Naturally, this comes as a simple way to establish the CEO role as the 37th circle. With 1/37 = 0.027027027 repeating, to make it simple 2.7% is attributed to each circle, with the remainders added to the CEO's share (2.8%) to serve as a tie breaker in close votes.
 
 ![Circles Yin-Yang](./images/circles-yinyang-orbit-gray.png)
 
-(imagine each of the gray circles [YIN] is actually 750 circles stacked on top of each other)
+(imagine each of the gray circles [YIN] is actually 75 circles stacked on top of each other)
 
 **Taiji Point**:
 - The Taiji Point is the center of the Yin Yang, and represents the CEO. The Taiji Point is the only token that is immune to decay mechanics.
@@ -111,3 +111,17 @@ Upon reaching 75 YIN tokens, the contributor can convert these 75 YIN tokens int
 - YANG tokens are subject to the maintenance requirements and decay rates described above
 - YIN tokens do not deplete and remain as earned
 - Wu Wei tokens are subject to potential dilution as determined by governance votes
+
+### Mathematical Harmony
+
+The token structure creates a perfect balance that aligns with Taiji principles:
+
+- 18 YANG tokens (75 tasks each) = 1,350 tasks = 18 developer years
+- 18 Wu Wei tokens (equivalent value of 75 tasks each) = 18 developer years
+- 1 Taiji Point token (slightly larger at 2.8%) ≈ 1 developer year
+
+**Total: 37 developer years of value**
+
+This structure naturally forms a hexagonal arrangement with 37 circles (1 in center, surrounded by 6 in the first ring, and 12 in the second ring, 18 in the outer ring). The Taiji Point sits at the center, with equal distribution of YANG and Wu Wei tokens in the surrounding rings, creating both visual and mathematical harmony.
+
+This tokenomics model ensures perfect equilibrium between contributors and investors, with a slightly weighted center point to provide direction and resolve ties - a true embodiment of Taiji principles of balance, harmony, and cyclical progression.

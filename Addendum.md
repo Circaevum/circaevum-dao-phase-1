@@ -74,10 +74,10 @@ The Circaevum DAO operates on a Taiji-inspired governance model, emphasizing bal
 - **Wu Wei (Investment)**: Represents the investment and capital contribution aspect.
   - Wu Wei tokens function as the investor governance mechanism.
   - Wu Wei token values will be determined through negotiations between investors and majority equity holders.
-  - Wu Wei tokens represent 0.9% of total allocation, with 54 tokens issued.
+  - Wu Wei tokens represent 2.7% of total allocation, with 18 tokens issued.
   - Wu Wei provides governance rights and equity but no profit-sharing.
   
-- **Taiji Point**: The central governing position representing 2.71% of total allocation, with 1 token issued.
+- **Taiji Point**: The central governing position representing 2.8% of total allocation, with 1 token issued.
   - Provides governance rights, equity, and profit-sharing.
   - Not subject to decay mechanics.
 
