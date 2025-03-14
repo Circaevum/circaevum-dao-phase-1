@@ -67,8 +67,8 @@ While this technical implementation provides the foundation for the governance s
 |-------------------------------------|----------------|--------------------|-------------|---------|-----------------|----------------------|---------------|-----------|------------------------------------------|
 | Taiji Point                         | 2.71%          | 1                  | ✅ Yes      | ✅ Yes  | ✅ Yes          | ❌ No                | ✅ Yes        | ✅ Yes    | ❌ No                                   |
 | YANG                                | 2.7%           | 18                 | ✅ Yes      | ✅ Yes  | ✅ Yes          | ✅ Yes               | ✅ Yes        | ✅ Yes    | ✅ Yes (if inactive before fully earned) |
-| YIN                                 | N/A            | 1,350              | ❌ No       | ❌ No   | ✅ Yes          | ✅ Yes               | ✅ Yes        | ✅ Yes    | ✅ Yes (depletes if inactive)            |
-| Wu Wei                              | 0.9%           | 54                 | ✅ Yes      | ✅ Yes  | ❌ No           | ✅ Yes               | ✅ Yes        | ✅ Yes    | ✅ Yes (depletes if inactive)            |
+| YIN                                 | N/A            | 1,350              | ❌ No       | ❌ No   | ✅ Yes          | ✅ Yes               | ✅ Yes        | ✅ Yes    | ❌ No                                    |
+| Wu Wei                              | 0.9%           | 54                 | ✅ Yes      | ✅ Yes  | ❌ No           | ✅ Yes               | ✅ Yes        | ✅ Yes    | ✅ Yes (potential dilution by governance)|
 ---
 
 ### Yin-Yang Geometry
