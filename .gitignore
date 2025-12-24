@@ -1,0 +1,54 @@
+# Node.js (for web projects)
+**/node_modules/
+**/.next/
+**/dist/
+**/build/
+**/.cache/
+**/.vite/
+
+# Unity - Ignore entire Unity projects (too large for git)
+yang/unity/avp/
+yang/unity/quest/
+yang/unity/pc/
+# Keep universal/ directory if it exists (shared code)
+# yang/unity/universal/
+
+# Unity build artifacts (for any remaining Unity files)
+**/Library/
+**/Temp/
+**/obj/
+**/Build/
+**/Builds/
+**/*.csproj
+**/*.unityproj
+**/*.sln
+**/*.suo
+**/*.user
+**/*.userprefs
+**/Logs/
+**/UserSettings/
+**/ProjectSettings/ProjectVersion.txt
+
+# IDE
+**/.idea/
+**/.vscode/
+**/*.swp
+**/*.swo
+**/.vs/
+
+# OS
+**/.DS_Store
+**/Thumbs.db
+
+# Environment
+**/.env
+**/.env.local
+
+# Python
+**/__pycache__/
+**/*.pyc
+**/.python-version
+
+# But keep .git in nested repos (they're separate)
+# Don't ignore .git directories
+

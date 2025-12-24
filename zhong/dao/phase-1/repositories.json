@@ -1,0 +1,105 @@
+{
+  "repositories": [
+    {
+      "name": "TimeBox",
+      "path": "Active/TimeBox",
+      "platform": "yang-avp",
+      "type": "yang",
+      "category": "Unity",
+      "subcategory": "Apple Vision Pro",
+      "github": "https://github.com/Circaevum/TimeBox",
+      "watch": true,
+      "changelog": "CHANGELOG.md",
+      "description": "Apple Vision Pro implementation of Circaevum"
+    },
+    {
+      "name": "Calendarium",
+      "path": "Active/Calendarium",
+      "platform": "yang-avp",
+      "type": "yang",
+      "category": "Unity",
+      "subcategory": "Meta Quest",
+      "github": "https://github.com/Circaevum/Calendarium",
+      "watch": true,
+      "description": "Meta Quest implementation of Circaevum"
+    },
+    {
+      "name": "three-circa",
+      "path": "Claude/circaevum-package/three-circa",
+      "platform": "yang-web",
+      "type": "yang",
+      "category": "Three.js",
+      "subcategory": "Web",
+      "github": "https://github.com/Circaevum/three-circa",
+      "watch": true,
+      "description": "Three.js web implementation of Circaevum visualization"
+    },
+    {
+      "name": "circaevum-yin",
+      "path": "Active/circaevum-yin",
+      "platform": "yin-rest",
+      "type": "yin",
+      "category": "Next.js",
+      "subcategory": "REST API",
+      "github": "https://github.com/Circaevum/circaevum-yin",
+      "watch": true,
+      "status": "planned",
+      "description": "Backend data/auth wrapper with REST API"
+    },
+    {
+      "name": "circaevum-dao-phase-1",
+      "path": "DAO/circaevum-dao-phase-1",
+      "platform": "zhong",
+      "type": "zhong",
+      "category": "Governance",
+      "watch": true,
+      "description": "DAO governance and token structure"
+    }
+  ],
+  "tracking": {
+    "commitTags": [
+      "PROBLEM-YIN-",
+      "PROBLEM-YANG-",
+      "PROBLEM-ZHONG-"
+    ],
+    "platformCategories": [
+      "yang-web",
+      "yang-avp",
+      "yin-nakama",
+      "yin-timescale",
+      "yin-rest",
+      "zhong-architecture"
+    ],
+    "quarterlyReview": true,
+    "automatedTracking": true
+  },
+  "investment": {
+    "currentTier": "seed",
+    "milestones": {
+      "seed": {
+        "tokens": [1, 2, 3, 4, 5, 6],
+        "amounts": [25000, 50000, 75000, 100000, 150000, 200000],
+        "status": "active"
+      },
+      "growth": {
+        "tokens": [7, 8, 9, 10, 11, 12],
+        "amounts": [250000, 350000, 500000, 750000, 1000000, 1500000],
+        "status": "reserved",
+        "unlockCondition": {
+          "investmentThreshold": 200000,
+          "valuationThreshold": 5000000
+        }
+      },
+      "scale": {
+        "tokens": [13, 14, 15, 16, 17, 18],
+        "amounts": [2000000, 3000000, 5000000, 7500000, 10000000, 15000000],
+        "status": "reserved",
+        "unlockCondition": {
+          "investmentThreshold": 1500000,
+          "valuationThreshold": 20000000
+        }
+      }
+    }
+  }
+}
+

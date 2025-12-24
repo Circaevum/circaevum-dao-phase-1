@@ -24,7 +24,13 @@ In view of the above statement, the following are checked with an "X" as appropr
 
 ### Section 8(b): Optional Information Related to W.S. 17-31-106(c)
 
-The complete and current operational details, governance structure, token economics, and all specific mechanisms of the Circaevum DAO are maintained in the official GitHub repository at https://github.com/Circaevum/circaevum-dao-phase-1. This repository constitutes the operating agreement of the DAO and is the authoritative source for all governance information. 
+The complete and current operational details, governance structure, token economics, and all specific mechanisms of the Circaevum DAO are maintained in the official GitHub repository:
+
+- **Main Repository**: https://github.com/Circaevum/circaevum-dao-phase-1
+- **Zhong Admin Process**: https://github.com/Circaevum/circaevum-dao-phase-1/tree/main/zhong
+- **Changelog**: https://github.com/Circaevum/circaevum-dao-phase-1/blob/main/zhong/reviews/CHANGELOG.md
+
+The `circaevum-dao-phase-1` repository is the single source of truth that coordinates all Circaevum projects, tracks contributions, manages DAO governance, and facilitates quarterly reviews. The Zhong (中) administrative process is transparently maintained in the `zhong/` folder, containing the operating agreement and serving as the authoritative source for all governance information. 
 
 The repository includes comprehensive information about:
 - Relations among members
@@ -39,8 +45,13 @@ The repository includes comprehensive information about:
 - Smart contract update processes
 - Other operational aspects
 
-The GitHub repository will only be updated based on a majority decision of governance token holders according to the governance mechanisms described therein.
+The GitHub repository will only be updated based on a majority decision of governance token holders according to the governance mechanisms described therein. The `zhong/reviews/CHANGELOG.md` tracks all changes and is reflected in quarterly DAO reviews.
 
 ### Technical Implementation Note:
 
-The Circaevum DAO is implemented on the Solana Realms platform as a standard Community Token DAO. While this technical implementation provides the foundation for the governance structure, not all aspects of the governance model are directly enforced on-chain. Many governance decisions will occur through formal meetings, with the results being reflected in token distributions and meeting notes. The official documentation can be found at https://github.com/Circaevum/circaevum-dao-phase-1.
+The Circaevum DAO is implemented on the Solana Realms platform as a standard Community Token DAO. While this technical implementation provides the foundation for the governance structure, not all aspects of the governance model are directly enforced on-chain. Many governance decisions will occur through formal meetings, with the results being reflected in token distributions and meeting notes. 
+
+**Official Documentation**:
+- **Main Repository**: https://github.com/Circaevum/circaevum-dao-phase-1
+- **Zhong Admin Process**: https://github.com/Circaevum/circaevum-dao-phase-1/tree/main/zhong
+- **Changelog**: https://github.com/Circaevum/circaevum-dao-phase-1/blob/main/zhong/reviews/CHANGELOG.md

@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Circaevum - Planetary Time</title>
+    <link rel="stylesheet" href="circaevum/css/styles.css">
+</head>
+<body>
+    <div id="canvas-container"></div>
+    
+    <div id="hud">
+        <div class="title-block">
+            <h1>CIRCAEVUM</h1>
+            <div class="subtitle">A Space for Time</div>
+        </div>
+        
+        <div class="controls">
+            <div class="zoom-slider">
+                <div class="zoom-option" data-zoom="1">
+                    <div class="zoom-number">1</div>
+                    <div class="zoom-desc">Century</div>
+                </div>
+                <div class="zoom-option active" data-zoom="2">
+                    <div class="zoom-number">2</div>
+                    <div class="zoom-desc">Decade</div>
+                </div>
+                <div class="zoom-option" data-zoom="3">
+                    <div class="zoom-number">3</div>
+                    <div class="zoom-desc">Year</div>
+                </div>
+                <div class="zoom-option" data-zoom="4">
+                    <div class="zoom-number">4</div>
+                    <div class="zoom-desc">Quarter</div>
+                </div>
+                <div class="zoom-option" data-zoom="5">
+                    <div class="zoom-number">5</div>
+                    <div class="zoom-desc">Month</div>
+                </div>
+                <div class="zoom-option" data-zoom="6">
+                    <div class="zoom-number">6</div>
+                    <div class="zoom-desc">Lunar</div>
+                </div>
+                <div class="zoom-option" data-zoom="7">
+                    <div class="zoom-number">7</div>
+                    <div class="zoom-desc">Week</div>
+                </div>
+                <div class="zoom-option" data-zoom="8">
+                    <div class="zoom-number">8</div>
+                    <div class="zoom-desc">Day</div>
+                </div>
+                <div class="zoom-option" data-zoom="9">
+                    <div class="zoom-number">9</div>
+                    <div class="zoom-desc">Clock</div>
+                </div>
+                <div class="zoom-option" data-zoom="0">
+                    <div class="zoom-number">0</div>
+                    <div class="zoom-desc">Info</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="toggle-controls">
+            <button class="toggle-btn active" id="markers-toggle">TIME MARKERS</button>
+            <button class="toggle-btn" id="light-mode-toggle">LIGHT MODE</button>
+            <button class="toggle-btn" id="sound-toggle">SOUND OFF</button>
+        </div>
+    </div>
+    
+    <div class="info-panel">
+        <h3>ORBITAL DATA</h3>
+        <div class="info-row">
+            <span class="info-label">Current Time:</span>
+            <span class="info-value" id="current-time">--</span>
+        </div>
+        <div class="info-row">
+            <span class="info-label">Selected Time:</span>
+            <span class="info-value" id="selected-time">--</span>
+        </div>
+        <div class="info-row">
+            <span class="info-label">Zoom Level:</span>
+            <span class="info-value" id="current-zoom">DECADE</span>
+        </div>
+        <div class="info-row">
+            <span class="info-label">Time Span:</span>
+            <span class="info-value" id="time-span">10 years</span>
+        </div>
+        <div class="info-row">
+            <span class="info-label">Focus Target:</span>
+            <span class="info-value" id="focus-target">SUN</span>
+        </div>
+        <div class="info-row">
+            <span class="info-label">Worldline Height:</span>
+            <span class="info-value" id="worldline-height">10 AU</span>
+        </div>
+    </div>
+    
+    <div class="loading" id="loading">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">INITIALIZING SOLAR SYSTEM...</div>
+    </div>
+
+    <!-- Landing Page -->
+    <div class="landing-page" id="landing-page">
+        <div class="landing-content">
+            <div class="landing-hero">
+                <h1>CIRCAEVUM</h1>
+                <div class="tagline">A SPACE FOR TIME</div>
+                <p style="font-size: 18px; color: rgba(142, 202, 230, 0.8); max-width: 600px; margin: 0 auto;">
+                    A 3D calendar modeled on Earth's natural rhythms.
+                </p>
+                <div class="balance-accent">◐ ◑</div>
+                <button class="explore-btn" onclick="setZoomLevel(2)">EXPLORE THE PROTOTYPE</button>
+            </div>
+            
+            <div class="landing-section">
+                <h2>What It Is</h2>
+                <p>
+                    Circaevum maps time to the actual motion of planets. Each moment in your life has a unique position in 3D space—where Earth was along its path around the Sun.
+                </p>
+                <p>
+                    Your brain already thinks spatially. Circaevum works with that. Memories become places you can navigate, anchored to planetary positions instead of arbitrary calendar grids.
+                </p>
+                <p style="color: rgba(255, 193, 7, 0.7); font-style: italic; margin-top: 20px;">
+                    The body knows cycles the mind has forgotten. Dawn. Tide. Season. Breath.
+                </p>
+            </div>
+            
+            <div class="landing-section">
+                <h2>What It Does</h2>
+                <p>
+                    <strong>Memory:</strong> Store personal memories at planetary coordinates. The place in space where a moment happened stays constant.
+                </p>
+                <p>
+                    <strong>Biological Rhythms:</strong> See the cycles that govern sleep, mood, and energy. Earth's rotation. Moon phases. Seasons. Make invisible patterns visible.
+                </p>
+                <p>
+                    <strong>Planning:</strong> Navigate future time as spatial movement. Understand date relationships through geometry, not counting.
+                </p>
+                <p>
+                    <strong>Natural Structure:</strong> Organize your worldview around actual planetary cycles. The universe as scaffold.
+                </p>
+            </div>
+            
+            <div class="balance-accent">✧ ❂ ✧</div>
+            
+            <div class="landing-section">
+                <h2>How It Works</h2>
+                <p>
+                    <strong>Spatial Memory:</strong> Your brain uses a variety of systems to encode information—location, orientation, action, people, time, date, and other relational systems. When new neural pathways form for ideas, experiences, and lessons, they connect to these regions for context. Novel thoughts create unique connections. Unique connections make stronger memories.
+                </p>
+                <p>
+                    The brain's spatial navigation has been honed for millennia. We memorize neighborhoods, buildings, parks, cities, rivers, beaches, mountain ranges, nations. This spatial mapping gives us visual context to anchor memories to.
+                </p>
+                <p>
+                    We're building a visual mapping system to leverage these inherent faculties. It defines a common format for contextual information—like a map of your home—a scalable system the brain can use to organize and navigate cohesively.
+                </p>
+                <p>
+                    <strong>Natural Cycles:</strong> Earth's rotation creates day and night. The Moon's orbit creates monthly rhythms. Earth's path around the Sun creates seasons. These aren't conventions—they're physical realities that shape all life.
+                </p>
+                <p style="color: rgba(255, 193, 7, 0.7); font-style: italic; margin-top: 15px;">
+                    We are not separate from these rhythms. We are expressions of them.
+                </p>
+                <p>
+                    <strong>Worldlines:</strong> A worldline is an object's path through space and time. Planets create spirals as they orbit a star that's traveling on its own trajectory. Your life follows Earth's spiral. Circaevum makes it visible and navigable.
+                </p>
+                <p>
+                    <strong>Aevernity:</strong> The name comes from aevum—a cognitive mode where past, present, and future moments coexist in awareness without collapsing into a single point. Neurologically, this is the brain's capacity to maintain multiple temporal perspectives simultaneously while remaining grounded in the present. A unified field of time as navigable space.
+                </p>
+            </div>
+            
+            <div class="balance-accent">⟡</div>
+            
+            <div class="landing-section">
+                <h2>Join the Development</h2>
+                <p>
+                    Circaevum is in active development. We're building a system that works with natural cycles and spatial cognition. If you're interested in planetary time, biological rhythms, or spatial memory, join us.
+                </p>
+                <p style="color: rgba(142, 202, 230, 0.6); font-style: italic; text-align: center; margin-top: 25px;">
+                    In mapping time to space, we find ourselves at home in both.
+                </p>
+                
+                <div class="registration-form">
+                    <form id="registration-form" action="https://formsubmit.co/adam@circaevum.com" method="POST">
+                        <!-- FormSubmit configuration -->
+                        <input type="hidden" name="_subject" value="New Circaevum Interest">
+                        <input type="hidden" name="_captcha" value="true">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="text" name="_honey" style="display:none">
+                        
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Your name">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="your@email.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="interest">What interests you?</label>
+                            <textarea id="interest" name="interest" placeholder="Spatial memory, natural cycles, planetary time..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Stay Connected</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 60px; padding: 40px 0; border-top: 1px solid rgba(0, 180, 216, 0.3);">
+                <p style="font-family: 'Space Mono', monospace; font-size: 14px; color: rgba(142, 202, 230, 0.6);">
+                    © 2025 Circaevum. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- External Dependencies -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    
+    <!-- Circaevum Modules (load in dependency order) -->
+    <script src="circaevum/js/config.js"></script>
+    <script src="circaevum/js/datetime.js"></script>
+    
+    <!-- Main Application Script -->
+    <script src="circaevum/js/main.js"></script>
+    
+    <!-- Audio Script -->
+    <script>
+        // Audio Context for ephemeral ambient sounds
+        let audioContext;
+        let gainNode;
+        let isMuted = true; // Start muted by default
+        
+        function initAudio() {
+            if (!audioContext) {
+                audioContext = new (window.AudioContext || window.webkitAudioContext)();
+                gainNode = audioContext.createGain();
+                gainNode.connect(audioContext.destination);
+                gainNode.gain.value = 0.15; // Subtle volume
+            }
+        }
+        
+        function toggleSound() {
+            isMuted = !isMuted;
+            const button = document.getElementById('sound-toggle');
+            if (button) {
+                button.textContent = isMuted ? 'SOUND OFF' : 'SOUND ON';
+                button.classList.toggle('active', !isMuted);
+            }
+            // Initialize audio on first unmute (requires user interaction)
+            if (!isMuted && !audioContext) {
+                initAudio();
+            }
+        }
+        
+        // Play a soft, ambient tone
+        function playAmbientTone(frequency, duration, fadeOut = true) {
+            if (isMuted) return; // Don't play if muted
+            
+            if (!audioContext || audioContext.state === 'suspended') {
+                initAudio();
+            }
+            
+            const oscillator = audioContext.createOscillator();
+            const toneGain = audioContext.createGain();
+            
+            oscillator.connect(toneGain);
+            toneGain.connect(gainNode);
+            
+            oscillator.frequency.value = frequency;
+            oscillator.type = 'sine';
+            
+            const now = audioContext.currentTime;
+            const startTime = Math.max(0, now);
+            const fadeInTime = Math.max(0, startTime + 0.1);
+            const fadeOutStart = Math.max(0, startTime + Math.max(0, duration - 0.2));
+            const endTime = Math.max(0, startTime + duration);
+            
+            toneGain.gain.setValueAtTime(0, startTime);
+            toneGain.gain.linearRampToValueAtTime(0.3, fadeInTime);
+            
+            if (fadeOut) {
+                toneGain.gain.linearRampToValueAtTime(0.3, fadeOutStart);
+                toneGain.gain.linearRampToValueAtTime(0, endTime);
+            }
+            
+            oscillator.start(startTime);
+            oscillator.stop(endTime);
+        }
+        
+        // Subtle whoosh/transition sound
+        function playTransitionSound() {
+            if (isMuted) return; // Don't play if muted
+            
+            if (!audioContext || audioContext.state === 'suspended') {
+                initAudio();
+            }
+            
+            const oscillator = audioContext.createOscillator();
+            const filter = audioContext.createBiquadFilter();
+            const transitionGain = audioContext.createGain();
+            
+            oscillator.connect(filter);
+            filter.connect(transitionGain);
+            transitionGain.connect(gainNode);
+            
+            oscillator.frequency.value = 150;
+            oscillator.type = 'sine';
+            filter.type = 'lowpass';
+            filter.frequency.value = 800;
+            
+            const now = audioContext.currentTime;
+            const startTime = Math.max(0, now);
+            const peakTime = Math.max(0, startTime + 0.05);
+            const endTime = Math.max(0, startTime + 0.3);
+            
+            transitionGain.gain.setValueAtTime(0, startTime);
+            transitionGain.gain.linearRampToValueAtTime(0.2, peakTime);
+            transitionGain.gain.linearRampToValueAtTime(0, endTime);
+            
+            filter.frequency.linearRampToValueAtTime(200, endTime);
+            
+            oscillator.start(startTime);
+            oscillator.stop(endTime);
+        }
+        
+        // Soft click for button interactions
+        function playClickSound() {
+            if (isMuted) return; // Don't play if muted
+            
+            if (!audioContext || audioContext.state === 'suspended') {
+                initAudio();
+            }
+            playAmbientTone(880, 0.08, true);
+        }
+        
+        // Form submission handler - plays sound, then allows FormSubmit to handle
+        document.getElementById('registration-form').addEventListener('submit', function(e) {
+            playAmbientTone(660, 0.5, true); // Confirmation tone
+            // Form will be submitted to FormSubmit.co
+        });
+        
+        // Add click sounds to buttons
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('.zoom-option').forEach(btn => {
+                btn.addEventListener('click', playClickSound);
+            });
+            
+            const exploreBtn = document.querySelector('.explore-btn');
+            if (exploreBtn) {
+                exploreBtn.addEventListener('click', playTransitionSound);
+            }
+            
+            // Sound toggle button
+            const soundToggle = document.getElementById('sound-toggle');
+            if (soundToggle) {
+                soundToggle.addEventListener('click', toggleSound);
+            }
+        });
+    </script>
+
+</body>
+</html>

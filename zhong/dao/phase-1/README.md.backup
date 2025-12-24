@@ -1,0 +1,213 @@
+## Smart Contract Information
+
+- **Contract Name:** Circaevum DAO Governance Token
+- **Network:** Solana Mainnet
+- **Contract Address:** `GovER5Lthms3bLBqWub97yVrMmEogzX7xNjdXpPPCVZw`
+- **Deployed On:** February 27, 2025
+
+# Circaevum DAO - Phase 1
+The Circaevum DAO operates on a Taiji-inspired governance model (YinYang), emphasizing balance and cyclical progression. The first quarterly meeting will be sometime late March or early April 2025.
+
+> **Legal Status**: This DAO is in the process of being registered as a Wyoming Decentralized Autonomous Organization LLC. The formal Addendum to Articles of Organization can be found in the repository as [Addendum.md](./Addendum.md).
+
+![4o Yin-Yang Art](./images/4o-yin-yang-art.png)
+
+**Abstract**:
+Circaevum is a 3D graphics engine for Time - a system to aggregate, index, visualize, and navigate TimeStamps across datasets. Each dot in our Yin-Yang model represents an ongoing problem that needs solving, whether it's Front-End (Yang) or Back-End (Yin) focused.
+
+On a Quarterly basis, we:
+- Tally contributions towards solving these problems
+- Scope future work and vote on priorities
+- Distribute revenue and adjust equity
+- Rotate focus to the next set of problems
+
+This Yin-Yang inspired model is designed to:
+- Provide a framework to simplify and streamline problem-solving
+- Incentivize long-term contributions
+- Keep the company lean and balanced
+- Provide an intuitive model for equity distribution
+- Serve as a flywheel for innovation and growth
+- Be visualized using Circaevum, naturally
+
+The Circaevum DAO is a Realms' Community Token DAO on the Solana blockchain, and can be found here: https://app.realms.today/dao/FDerj19PyQytsD1rL4NGpSeXWT8d7WdRABBxxCEnDj6d
+
+---
+
+### Current Problems (Q1 2025 - Updated March 2025)
+
+**Back-End (Yin) Problems:**
+1. **Mobile Device Optimization** 🔄 IN_PROGRESS
+   - **Problem ID**: PROBLEM-YIN-004
+   - **Version**: v0.4.07
+   - **Commit**: [Current development]
+   - **Token**: YIN-004 pending
+   - **Description**: Performance and compatibility improvements for mobile platforms
+
+**Front-End (Yang) Problems:**
+2. **ISS Data Pod Visualization** 📋 PLANNED
+   - **Problem ID**: PROBLEM-YANG-002
+   - **Version**: v0.4.08-v0.4.09 (Q2 2025)
+   - **Commit**: [Future development]
+   - **Token**: YANG-002 pending
+   - **Description**: User interface for displaying space station data
+
+3. **User Login Flow Enhancement** 📋 PLANNED
+   - **Problem ID**: PROBLEM-YANG-003
+   - **Version**: v0.4.10-v0.4.11 (Q2 2025)
+   - **Commit**: [Future development]
+   - **Token**: YANG-003 pending
+   - **Description**: Streamlined authentication experience
+
+**Completed Problems (Q1 2025):**
+- ✅ **Nakama Device Authentication** ([PROBLEM-YIN-001](https://github.com/Circaevum/TimeBox/commit/24f0c9eaa))
+- ✅ **Google Calendar Integration** ([PROBLEM-YIN-002](https://github.com/Circaevum/TimeBox/commit/b3c9c068b))
+- ✅ **Sleep Data Visualization** ([PROBLEM-YIN-003](https://github.com/Circaevum/TimeBox/commit/17be6b882))
+- ✅ **Zhong (中) Architecture** ([PROBLEM-ZHONG-001](https://github.com/Circaevum/TimeBox/commit/24f0c9eaa)) - The Center Contract (formerly "Space Station Memory Palace")
+- ✅ **Zhong (中) UI** ([PROBLEM-YANG-001](https://github.com/Circaevum/TimeBox/commit/6a0e4db10)) - The Center Contract interface
+
+Each problem represents a dot in our Yin-Yang model, with solutions flowing through **Zhong (中)** - The Center Contract, the central hub where data and features coordinate (formerly "Space Station Memory Palace").
+
+![Circles Yin-Yang](./images/circles-yinyang-orbit-gray.png)
+
+---
+
+### Development Progress Alignment
+
+**TimeBox Version 0.4.07** (Current as of March 2025):
+- **Completed**: Zhong (中) architecture implementation - The Center Contract
+- **Completed**: Nakama integration with device authentication and storage
+- **Completed**: Google Calendar integration with event rendering
+- **Completed**: Sleep data visualization system (Garmin integration)
+- **In Progress**: Mobile device optimization and performance tuning
+- **Next Quarter**: ISS Data Pod visualization and advanced user interface features
+
+**Problem Tracking System**:
+This README uses a precise problem tracking system that links directly to commit history:
+1. **Problem IDs**: Each problem has a unique ID (e.g., PROBLEM-YIN-001)
+2. **Commit Links**: Completed problems link directly to specific commits
+3. **Token Awards**: Clear token assignment tied to problem completion
+4. **Version Tracking**: Version numbers include problem IDs for traceability
+
+**Quarterly Reconciliation Process**:
+This README and the TimeBox CHANGELOG.md are reconciled quarterly to ensure:
+1. **Problem Status Alignment**: Current problems reflect actual development progress
+2. **Version Synchronization**: TimeBox version numbers align with quarterly cycles
+3. **Achievement Documentation**: Completed problems are properly documented and celebrated
+4. **Future Planning**: Next quarter's problems are scoped based on current progress
+
+---
+
+### Yin-Yang Characteristics
+
+**Yin (Back-End)**: Adaptive, foundational, source of data emergence
+- Each YIN token represents a solved backend problem
+- YIN tokens have governance rights, equity, and profit-sharing (balanced with YANG)
+- YIN tokens require active participation to maintain their full value (balanced with YANG)
+- YIN tokens can be converted to YANG tokens when backend systems are ready to support frontend features
+
+**Yang (Front-End)**: Active, full of light and density, carries the user interface and experience momentum
+- Each YANG token represents a solved frontend problem
+- YANG tokens have governance rights, equity, and profit-sharing (balanced with YIN)
+- YANG tokens require active participation to maintain their full value (balanced with YIN)
+
+**Zhong (中)**: The Center Contract - The transition mechanism between Front-End and Back-End
+- Represents the current work being done each quarter
+- Focuses on 6 main problems (3 Front-End + 3 Back-End) that work together
+- Serves as the central hub where data flows between frontend and backend
+- The central coordination point (formerly "Space Station Memory Palace")
+
+**Wu Wei (无为)**: Represents investors who provide capital but not direct labor contributions
+- Balances against active contributors (YIN/YANG)
+- Participates in governance decisions and receives profit-sharing (annual distributions)
+- Each Wu Wei token represents an investment milestone (e.g., $50k, $100k, $250k)
+- Long-term focus: Annual profit distributions (vs quarterly for active contributors)
+
+![](./images/yinyangcoins.png)
+
+### Token Characteristics
+
+| Token Type | Percentage Cap | # of Tokens | Governance? | Equity? | Profit-Sharing? | Distribution? | Decay Mechanic? |
+|------------|----------------|-------------|-------------|---------|-----------------|---------------|-----------------|
+| **Zhong (中)** | 2.8% | 1 | ✅ Yes | ✅ Yes | ✅ Yes | Quarterly | ❌ No |
+| **YANG** | 2.7% | 18 | ✅ Yes | ✅ Yes | ✅ Yes | Quarterly | ✅ Yes (if inactive) |
+| **YIN** | 2.7% | 18 | ✅ Yes | ✅ Yes | ✅ Yes | Quarterly | ✅ Yes (if inactive) |
+| **Wu Wei** | 2.7% | 18 | ✅ Yes | ✅ Yes | ✅ Yes | **Annual** | ✅ Yes (if inactive) |
+
+---
+
+### Quarterly Problem-Solving Cycle
+
+1. **Revenue & Costs**: All revenue enters Treasury, costs are paid, profits set aside
+2. **Contribution Tally**: Previous quarter's problem-solving contributions are measured
+3. **Problem Voting**: YIN and YANG token holders vote on next quarter's 6 main problems to solve
+4. **Profit Distribution**: 
+   - **Quarterly**: Distributed equally to YIN and YANG token holders (balanced)
+   - **Annual**: Accumulated profits distributed to Wu Wei holders (long-term investors)
+5. **Future Investment**: YIN and YANG holders vote on company investments
+6. **Rotation**: Yin-Yang rotates 90° counterclockwise, shifting to next set of problems
+7. **New Quarter**: Begins with new Front-End and Back-End problems flowing through Zhong (中)
+
+![Circles Orbit](./images/circles-quarter.png)
+
+### Quarterly Reconciliation Process
+
+**Q1 2025 Reconciliation** (March 2025):
+- ✅ **Completed**: Zhong (中) architecture - The Center Contract (Zhong token earned)
+- ✅ **Completed**: Nakama device authentication system (YIN token earned)
+- ✅ **Completed**: Google Calendar integration (YIN token earned)
+- ✅ **Completed**: Sleep data visualization (YIN token earned)
+- 🔄 **In Progress**: Mobile optimization (YIN token in progress)
+- 📋 **Next Quarter**: ISS Data Pod visualization (YANG token target)
+
+**Reconciliation Checklist** (Every Quarter):
+- [ ] Review TimeBox CHANGELOG.md for completed features
+- [ ] Update README.md current problems section
+- [ ] Award YIN/YANG tokens for completed problems
+- [ ] Scope next quarter's problems based on development velocity
+- [ ] Update version numbers to align with quarterly cycles
+- [ ] Document achievements and lessons learned
+- [ ] Vote on next quarter's priorities
+
+### Contributor's Perspective
+
+Upon solving a major backend problem (earning 1 YIN token), the contributor can convert this to 1 YANG token (representing frontend problem-solving leadership). Each token represents a solved problem that contributes to the overall system.
+
+**Development Cycle**: Each quarter focuses on 6 main problems (3 Front-End + 3 Back-End) that work together through **Zhong (中)** - The Center Contract. This creates natural progression where backend solutions support frontend features, and frontend user feedback drives backend improvements.
+
+---
+
+### Mathematical Harmony
+
+The token structure creates perfect balance aligned with Taiji principles:
+- 18 YANG tokens (Front-End problems) = 18 major frontend solutions
+- 18 YIN tokens (Back-End problems) = 18 major backend solutions  
+- 18 Wu Wei tokens (investment milestones) = 18 investment thresholds (e.g., $50k, $100k, $250k)
+- 1 Zhong (中) token (central coordination) = 1 CEO/central contract role
+
+**Total: 37 components of value**
+
+With 6 main problems per quarter (3 Front-End + 3 Back-End), you have exactly 6 quarters to address all 36 desired solutions (18 YANG + 18 YIN tokens). This creates a 1.5-year problem-solving cycle where all major frontend and backend challenges are addressed through **Zhong (中)** - The Center Contract.
+
+**Wu Wei Investment Structure**: Each Wu Wei token represents an investment milestone. Investors receive annual profit distributions (long-term focus) vs quarterly distributions for active contributors (YIN/YANG). See [WU_WEI_INVESTMENT_STRUCTURE.md](./WU_WEI_INVESTMENT_STRUCTURE.md) for details.
+
+---
+
+## Additional Resources
+
+- [Circaevum Whitepaper](https://your-whitepaper-url.com)
+- [User Guide](https://your-user-guide-url.com)
+- [Developer Documentation](https://your-developer-docs-url.com)
+- [Articles of Incorporation](./Addendum.md)
+- [TimeBox CHANGELOG](../TimeBox/CHANGELOG.md) - Development progress and technical details
+- [Problem Tracking System](./problem-tracking-system.md) - Detailed problem tracking and token award system
+- [Wu Wei Investment Structure](./WU_WEI_INVESTMENT_STRUCTURE.md) - Investment milestone system and profit-sharing mechanism
+- [Decay Mechanics](./DECAY_MECHANICS.md) - How token decay maintains active participation and Taiji balance
+- [Yin-Yang Balance](./YINYANG_BALANCE.md) - How YIN and YANG tokens maintain perfect reflection and balance
+- [Quarterly Review Scenarios](./QUARTERLY_REVIEW_SCENARIOS.md) - How quarterly reviews work, GitHub contribution tracking, and platform naming conventions
+- [Investment Milestone System](./INVESTMENT_MILESTONE_SYSTEM.md) - Flexible tier-based investment system with GitHub repository tracking
+- [Repository Configuration](./repositories.json) - All GitHub repositories to watch and track contributions
+
+**Note**: The official documentation, including any updates to this governance model or GitHub repository, can be found at https://github.com/Circaevum/circaevum-dao-phase-1 and will only be updated based on a majority decision of governance token holders.
+
+**Last Updated**: March 2025 (Q1 2025 Reconciliation)
+**Next Reconciliation**: June 2025 (Q2 2025)
