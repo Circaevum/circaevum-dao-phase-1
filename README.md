@@ -2,7 +2,9 @@
 
 **The Center Contract** - Single source of truth for Circaevum governance, administration, and development.
 
-This repository consolidates all Circaevum projects, DAO governance, and administrative processes in one transparent location.
+Circaevum is a **3D calendar and time visualization system** that maps time to the actual motion of planets. Each moment in your life has a unique position in 3D space—where Earth was along its path around the Sun. Your brain already thinks spatially; Circaevum works with that. Memories become places you can navigate, anchored to planetary positions instead of arbitrary calendar grids.
+
+This repository consolidates all Circaevum projects and serves as the framework for DAO governance and administrative processes in one transparent location. 
 
 ---
 
@@ -15,6 +17,7 @@ python3 -m http.server 8080
 ```
 
 **Open in browser**: http://localhost:8080
+<br>Or visit [https://circaevum.com/](https://circaevum.com/)
 
 You should see the Circaevum planetary time visualization with zoom controls and time markers.
 
@@ -57,7 +60,7 @@ circaevum-dao-phase-1/
 
 ## Quick Links
 
-- **[Consolidation Handoff](./zhong/reviews/CONSOLIDATION_2025-12-23.md)** - Context from consolidation (December 23, 2025)
+- **[Consolidation Handoff](./zhong/reviews/CONSOLIDATION_2025-12-23.md)** - Context from consolidation (EOY 2025)
 - **[DAO Structure](./zhong/dao/phase-1/README.md)** - Complete DAO governance
 - **[Changelog](./zhong/reviews/CHANGELOG.md)** - All changes tracked
 - **[Problem Tracking](./zhong/problems/)** - Current problems
@@ -84,28 +87,64 @@ circaevum-dao-phase-1/
 
 ---
 
-## Current Problems (Q1 2025)
+## Project Status
 
-**Back-End (Yin) Problems:**
-1. **Mobile Device Optimization** 🔄 IN_PROGRESS
-   - **Problem ID**: PROBLEM-YIN-004
-   - **Token**: YIN-004 pending
+### Q1 2025 - Foundation & Initial Development
 
-**Front-End (Yang) Problems:**
-2. **ISS Data Pod Visualization** 📋 PLANNED
-   - **Problem ID**: PROBLEM-YANG-002
-   - **Token**: YANG-002 pending
+**DAO & Governance (Zhong)**:
+- ✅ Established Zhong (中) as central administrative hub
+- ✅ Balanced YIN/YANG token structure with Wu Wei investment tiers
+- ✅ Repository consolidation into monorepo structure
+- ✅ Quarterly review system and contribution tracking framework
 
-3. **User Login Flow Enhancement** 📋 PLANNED
-   - **Problem ID**: PROBLEM-YANG-003
-   - **Token**: YANG-003 pending
+**Backend - Nakama (Yin)**:
+- ✅ Nakama Device Authentication System (v0.4.03-v0.4.04)
+- ✅ Google Calendar Integration (v0.4.02-v0.4.05)
+- ✅ Sleep Data Visualization (v0.4.06)
+- 🔄 Mobile Device Optimization (v0.4.07, ongoing)
 
-**Completed Problems (Q1 2025):**
-- ✅ **Nakama Device Authentication** (PROBLEM-YIN-001)
-- ✅ **Google Calendar Integration** (PROBLEM-YIN-002)
-- ✅ **Sleep Data Visualization** (PROBLEM-YIN-003)
-- ✅ **Zhong (中) Architecture** (PROBLEM-ZHONG-001)
-- ✅ **Zhong (中) UI** (PROBLEM-YANG-001)
+**Frontend - Unity AVP (Yang)**:
+- ✅ Zhong (中) UI - The Center Contract interface (v0.4.03-v0.4.04)
+
+**Frontend - Web (Yang)**:
+- ✅ Three.js visualization consolidated and working
+
+**Architecture - Seeds**:
+- ✅ Yang-Seed structure created (`yin/yang-seed/` for frontend in backend)
+- ✅ Yin-Seed structure created (`yang/web/yin-seed/` for backend in frontend)
+
+### Q3 2025 - Pod System & Event Processing
+
+**Frontend - Unity AVP (Yang)**:
+- ✅ Pod system simplification (console logging, event stats) - v0.4.08
+- ✅ Nakama event cache comparison and batch processing - v0.4.08
+- ✅ Google Event Manager improvements - v0.4.08
+
+### Q4 2025 - UI/UX Enhancements & Repository Organization
+
+**Frontend - Unity AVP (Yang)**:
+- ✅ Event system improvements (transparency, visibility, panel management) - v0.4.09
+- ✅ Turntable coordinate system with full rotation integration - v0.4.09
+- ✅ Time navigation controllers (consolidated day/month navigation) - v0.4.09
+- ✅ Event interaction improvements (selection, click handling, panel lifecycle) - v0.4.09
+
+**DAO & Governance (Zhong)**:
+- ✅ Root directory cleanup (consolidated 20+ markdown files)
+- ✅ Documentation standards (markdown organization methodology)
+- ✅ Screenshot organization system (automated tracking)
+- ✅ Contribution evaluation frameworks (Unity, Web, Backend tracking)
+
+### Current Work
+
+**In Progress**:
+- 🔄 Mobile Device Optimization - Performance and compatibility improvements
+
+**Planned**:
+- 📋 ISS Data Pod Visualization - Advanced data visualization interface
+- 📋 User Login Flow Enhancement - Streamlined authentication
+- 📋 Three.js Event Renderer - Web-based event visualization
+
+See [Changelog](./zhong/reviews/CHANGELOG.md) for detailed progress tracking.
 
 ---
 
@@ -115,30 +154,40 @@ circaevum-dao-phase-1/
 
 **yang-web** (Three.js / Web):
 - Location: `yang/web/`
-- Status: ✅ **Working** - Test on http://localhost:8080
+- Status: ✅ **Working** - Deployed at [circaevum.com](https://circaevum.com/)
+- Features: Planetary time visualization, zoom controls, time markers, event rendering
 - Start: `cd yang/web && python3 -m http.server 8080`
+- See: [yang/web/CHANGELOG.md](./yang/web/CHANGELOG.md)
 
-**yang-avp** (Unity / Apple Vision Pro):
+**yang-avp** (Unity / Apple Vision Pro - TimeBox):
 - Location: `yang/unity/avp/`
-- Status: Active development
+- Status: ✅ **Active Development** - v0.4.09+ (Q4 2025)
+- Features: 3D spatial calendar, event visualization, turntable rotation, time navigation
+- Recent: Event system improvements, coordinate transformations, UI controllers
+- See: [yang/unity/avp/CHANGELOG.md](./yang/unity/avp/CHANGELOG.md)
 
-**yang-quest** (Unity / Meta Quest):
+**yang-quest** (Unity / Meta Quest - Calendarium):
 - Location: `yang/unity/quest/`
-- Status: Active development
+- Status: ✅ **Active Development**
+- Features: VR calendar interface, spatial time navigation
 
 ### Yin (Backend)
 
 **yin-nakama** (Nakama Backend):
 - Location: `yin/nakama/`
-- Status: Active (used by Unity projects)
+- Status: ✅ **Active** - Used by Unity projects
+- Features: Device authentication, real-time sync, event storage, Google Calendar integration
+- Versions: v0.4.02-v0.4.07 (Q1-Q4 2025)
 
 **yin-timescale** (TimescaleDB Backend):
 - Location: `yin/timescale/`
-- Status: Planned
+- Status: 📋 **Planned** - Q2 2025
+- Purpose: Time-series data storage and analytics
 
 **yin-rest** (REST API Backend):
 - Location: `yin/rest/`
-- Status: Planned
+- Status: 📋 **Planned** - Q2-Q3 2025
+- Purpose: RESTful API for web and mobile clients
 
 ---
 
@@ -171,14 +220,36 @@ circaevum-dao-phase-1/
 
 ## Documentation
 
-- **[Architecture](./docs/architecture/)** - System architecture
-- **[Taiji Philosophy](./docs/philosophy/TAIJI_PHILOSOPHY.md)** - Philosophical foundation
-- **[Adapter System](./docs/architecture/ADAPTER_ARCHITECTURE.md)** - Pluggable adapters
-- **[Seed Structure](./docs/architecture/SEED_STRUCTURE.md)** - Yin-seed and Yang-seed
+### Architecture & Design
+- **[Architecture Overview](./docs/architecture/)** - System architecture documentation
+- **[Taiji Philosophy](./docs/philosophy/TAIJI_PHILOSOPHY.md)** - Philosophical foundation (Yin/Yang/Zhong)
+- **[Adapter System](./docs/architecture/ADAPTER_ARCHITECTURE.md)** - Pluggable backend/frontend adapters
+- **[Seed Structure](./docs/architecture/SEED_STRUCTURE.md)** - Yin-seed and Yang-seed architecture
+
+### Guides & Reference
+- **[Developer Guide](./docs/guides/DEVELOPER_GUIDE.md)** - Development workflows
+- **[User Guide](./docs/guides/USER_GUIDE.md)** - End-user documentation
+- **[Contribution Evaluation](./docs/CONTRIBUTION_EVALUATION.md)** - How contributions are tracked
+- **[Yang-Web Evaluation](./docs/YANG_WEB_EVALUATION_RECOMMENDATION.md)** - Web project tracking
+
+### Changelogs
+- **[Master Changelog](./zhong/reviews/CHANGELOG.md)** - All projects, quarterly tracking
+- **[Web Changelog](./yang/web/CHANGELOG.md)** - yang-web specific changes
+- **[AVP Changelog](./yang/unity/avp/CHANGELOG.md)** - TimeBox (Unity AVP) changes
 
 ---
 
-**Last Updated**: December 2025
-**Maintained By**: Circaevum DAO - The Center Contract (Zhong - 中)
+## Platform Availability
+
+Circaevum is available on multiple platforms:
+- **Web**: [circaevum.com](https://circaevum.com/) - Three.js visualization
+- **Apple Vision Pro**: TimeBox - Immersive spatial calendar (in development)
+- **Meta Quest**: Calendarium - VR calendar experience (in development)
+
+---
+
+**Last Updated**: December 2025  
+**Maintained By**: Circaevum DAO - The Center Contract (Zhong - 中)  
+**Quarterly Reviews**: See [zhong/reviews/CHANGELOG.md](./zhong/reviews/CHANGELOG.md)
 
 **See [Consolidation Handoff](./zhong/reviews/CONSOLIDATION_2025-12-23.md) for full context on the consolidation!**
