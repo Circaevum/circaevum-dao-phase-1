@@ -1,255 +1,120 @@
 # Circaevum DAO - Phase 1
 
-**The Center Contract** - Single source of truth for Circaevum governance, administration, and development.
+This GitHub repository serves as the basis for how Circaevum operates as a DAO. It consolidates progress notes and tracks development across all Circaevum projects, providing the framework for DAO governance and contribution tracking. Note: Individual project repositories contain the actual code; this repository focuses on tracking, documentation, and administrative processes.
 
-Circaevum is a **3D calendar and time visualization system** that maps time to the actual motion of planets. Each moment in your life has a unique position in 3D space—where Earth was along its path around the Sun. Your brain already thinks spatially; Circaevum works with that. Memories become places you can navigate, anchored to planetary positions instead of arbitrary calendar grids.
+**Circaevum** is a 3D calendar and time visualization system designed to enhance the human cognitive faculties of memory and planning. To learn more, visit https://circaevum.com/.
 
-This repository consolidates all Circaevum projects and serves as the framework for DAO governance and administrative processes in one transparent location. 
+## Smart Contract Information
 
----
+- **Contract Name:** Circaevum DAO Governance Token
+- **Network:** Solana Mainnet
+- **Governance Program Address:** `GovER5Lthms3bLBqWub97yVrMmEogzX7xNjdXpPPCVZw`
+- **Realm Address:** `FDerj19PyQytsD1rL4NGpSeXWT8d7WdRABBxxCEnDj6d`
+- **Realm:** https://app.realms.today/dao/FDerj19PyQytsD1rL4NGpSeXWT8d7WdRABBxxCEnDj6d
+- **Deployed On:** February 27, 2025
 
-## 🌐 Quick Start: yang/web
+### Token Mint Addresses
 
-**Start the visualization**:
-```bash
-cd yang/web
-python3 -m http.server 8080
-```
+- **YIN Token (Community Token):** `8J2Xt2G3US2yWTwDtKxGUwwKCnNzNcoXwEMVPwV6HTzw`
+  - [View on Solana Explorer](https://explorer.solana.com/address/8J2Xt2G3US2yWTwDtKxGUwwKCnNzNcoXwEMVPwV6HTzw/metadata)
+- **YANG Token (Council Token):** `7E8nSaFbB1LwAKZXUVcH2jBkS9RR5FgzQi3xdHAToShX`
+  - [View on Solana Explorer](https://explorer.solana.com/address/7E8nSaFbB1LwAKZXUVcH2jBkS9RR5FgzQi3xdHAToShX/metadata)
 
-**Open in browser**: http://localhost:8080
-<br>Or visit [https://circaevum.com/](https://circaevum.com/)
+**To find these tokens on exchanges or DEXs:**
+- Search for the mint address on Solana DEXs like Jupiter, Raydium, or Orca
+- These are governance tokens and may have limited liquidity
+- Always verify the mint address matches the addresses above when trading
 
-You should see the Circaevum planetary time visualization with zoom controls and time markers.
+> **Legal Status**: This DAO is in the process of being registered as a Wyoming Decentralized Autonomous Organization LLC. The formal Addendum to Articles of Organization can be found in the repository as [Addendum.md](./Addendum.md).
 
----
+The Circaevum DAO operates on a Taiji-inspired governance model (Yin-Yang), emphasizing balance and cyclical progression. On a quarterly basis, contributions towards the evolution of Circaevum will be tallied, future work will be scoped, votes will take place, revenue will be dispersed, and equity will shift.
 
-## Structure
-
-```
-circaevum-dao-phase-1/
-├── zhong/                         # Admin process (TRANSPARENT)
-│   ├── dao/phase-1/              # DAO structure and governance
-│   ├── tracking/                 # Contribution tracking
-│   ├── problems/                 # Problem tracking
-│   ├── milestones/               # Investment milestones
-│   └── reviews/                  # Quarterly reviews + CHANGELOG.md
-│
-├── yang/                          # Frontend projects
-│   ├── web/                      # Three.js (yang-web) ✅ WORKS
-│   └── unity/                    # Unity projects
-│       ├── universal/            # Shared Unity code
-│       ├── avp/                  # Apple Vision Pro (TimeBox)
-│       ├── quest/                # Meta Quest (Calendarium)
-│       └── pc/                   # Desktop/PC
-│
-├── yin/                           # Backend projects
-│   ├── nakama/                   # Nakama backend
-│   ├── timescale/                # TimescaleDB backend
-│   ├── rest/                     # REST API backend
-│   └── yang-seed/                # Yang Seed (frontend in backend)
-│
-└── docs/                          # Documentation
-    ├── architecture/
-    ├── philosophy/
-    ├── guides/
-    ├── examples/
-    └── reference/
-```
+![4o Yin-Yang Art](./images/4o-yin-yang-art.png)
 
 ---
 
-## Quick Links
+## Yin-Yang Token Structure
 
-- **[Consolidation Handoff](./zhong/reviews/CONSOLIDATION_2025-12-23.md)** - Context from consolidation (EOY 2025)
-- **[DAO Structure](./zhong/dao/phase-1/README.md)** - Complete DAO governance
-- **[Changelog](./zhong/reviews/CHANGELOG.md)** - All changes tracked
-- **[Problem Tracking](./zhong/problems/)** - Current problems
-- **[Articles of Incorporation](./Addendum.md)** - Legal DAO structure
+**Yin (阴)** and **Yang (阳)**: YIN and YANG tokens are perfectly balanced with identical characteristics. Both represent contributors—YIN focuses on backend problems, YANG focuses on frontend problems. Both have governance rights, equity (2.7% per token), profit-sharing (2.7% per token, quarterly), and the same decay mechanics (0.1% per quarter if inactive for 2+ quarters). Both have 18 tokens total. The only difference is their problem focus area.
 
----
+**YIN/YANG Token Maintenance** (Same for Both):
+- Tokens require active participation to maintain their full value
+- Holders must complete contributions to prevent decay
+- Decay rate is 0.1% per quarter after 2 quarters of inactivity
+- Active contribution resets decay to full value
 
-## Philosophy
+**Wu Wei (无为)**: Represents investors. Wu Wei tokens provide governance participation for investors. Unlike YIN and YANG token holders who are active contributors, Wu Wei token holders are investors who provide capital but not direct labor contributions. Wu Wei holders participate in governance decisions. Wu Wei token equity is determined through negotiations and may differ from the fixed 2.7% structure of YIN/YANG tokens. Wu Wei tokens can be transferred and are subject to decay mechanics if the investor becomes inactive in governance participation.
 
-**Zhong (中)** = The Center Contract
-- Coordinates between Yin (backend) and Yang (frontend)
-- Manages DAO governance and token structure
-- Tracks contributions across all projects
-- Facilitates quarterly reviews
-- Maintains balance (和谐 - Héxié)
+**Zhong (中)**: The center of the Yin Yang, representing the CEO. Zhong is the only token that is immune to decay mechanics.
 
-**Yin (阴)** = Backend projects
-- Receptive, foundational, data emergence
-- Platforms: `yin-nakama`, `yin-timescale`, `yin-rest`
+### Token Characteristics
 
-**Yang (阳)** = Frontend projects
-- Active, dynamic, user experience
-- Platforms: `yang-web`, `yang-avp`, `yang-quest`
+| Token Type | Percentage Cap | # of Tokens Issued | Governance? | Equity? | Profit-Sharing? | Conversion Possible? | Transferable? | Burnable? | Decay Mechanic? |
+|------------|----------------|--------------------|-------------|---------|-----------------|----------------------|---------------|-----------|-----------------|
+| Zhong (中) | 2.8% | 1 | ✅ Yes | ✅ Yes | ✅ Yes | ❌ No | ✅ Yes | ✅ Yes | ❌ No |
+| YANG | 2.7% | 18 | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes (if inactive) |
+| YIN | 2.7% | 18 | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes (if inactive) |
+| Wu Wei | Negotiated | 18 | ✅ Yes | Negotiated | ❌ No | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes (potential dilution by governance) |
+
+### Quarterly Development Review Sequence
+
+1. All Revenue enters the Treasury, and payments to Costs for the Quarter are deployed. The remaining Profits will be set aside for Steps 4 and 5
+2. The accumulated contributions of the previous Quarter are tallied up
+3. YANG token holders vote on the next Quarter's needs, and estimated costs are set aside from Profits (YIN equivalents using Yin-to-Yang conversion formula are included in vote regardless of YIN consumption decision)
+4. 1st half of remaining Profits is set aside for YIN token holders (unless converting to YANG)
+5. 2nd half of profits is divided amongst YANG holders on burned 2.7% equivalent, then is voted on for future investments in the company.
+6. The YinYang rotates 90 degrees counterclockwise 
+7. The Next Quarter begins
+
+### Contributor's Perspective
+
+YIN and YANG token holders have identical rights: both have governance (voting rights), equity (2.7% per token), and profit-sharing (2.7% per token, quarterly). Contributors earn tokens based on their problem focus area—backend contributors earn YIN tokens, frontend contributors earn YANG tokens. Both token types are perfectly balanced and equal in all respects.
+
+### Mathematical Harmony
+
+The token structure creates a perfect balance that aligns with Taiji principles:
+
+- 18 YANG tokens (2.7% each) = 48.6% equity
+- 18 YIN tokens (2.7% each) = 48.6% equity  
+- 1 Zhong (中) token (2.8%) = 2.8% equity
+- 18 Wu Wei tokens (equity negotiated per investment) = balance
+
+**Total: ~100% equity structure**
+
+This structure naturally forms a hexagonal arrangement with 37 circles (1 in center, surrounded by 6 in the first ring, and 12 in the second ring, 18 in the outer ring). Zhong (中) sits at the center, with YIN and YANG tokens in balanced distribution, creating visual and mathematical harmony.
+
+![Circles Yin-Yang](./images/circles-yinyang-orbit-gray.png)
+
+This tokenomics model ensures perfect equilibrium between contributors and investors, with a slightly weighted center point to provide direction and resolve ties - a true embodiment of Taiji principles of balance, harmony, and cyclical progression.
 
 ---
 
 ## Project Status
 
-### Q1 2025 - Foundation & Initial Development
+### Current Development
 
-**DAO & Governance (Zhong)**:
-- ✅ Established Zhong (中) as central administrative hub
-- ✅ Balanced YIN/YANG token structure with Wu Wei investment tiers
-- ✅ Repository consolidation into monorepo structure
-- ✅ Quarterly review system and contribution tracking framework
+**Backend (Yin)**:
+- ✅ Nakama Device Authentication System
+- ✅ Google Calendar Integration
+- ✅ Sleep Data Visualization
+- 🔄 Mobile Device Optimization (in progress)
 
-**Backend - Nakama (Yin)**:
-- ✅ Nakama Device Authentication System (v0.4.03-v0.4.04)
-- ✅ Google Calendar Integration (v0.4.02-v0.4.05)
-- ✅ Sleep Data Visualization (v0.4.06)
-- 🔄 Mobile Device Optimization (v0.4.07, ongoing)
-
-**Frontend - Unity AVP (Yang)**:
-- ✅ Zhong (中) UI - The Center Contract interface (v0.4.03-v0.4.04)
-
-**Frontend - Web (Yang)**:
-- ✅ Three.js visualization consolidated and working
-
-**Architecture - Seeds**:
-- ✅ Yang-Seed structure created (`yin/yang-seed/` for frontend in backend)
-- ✅ Yin-Seed structure created (`yang/web/yin-seed/` for backend in frontend)
-
-### Q3 2025 - Pod System & Event Processing
-
-**Frontend - Unity AVP (Yang)**:
-- ✅ Pod system simplification (console logging, event stats) - v0.4.08
-- ✅ Nakama event cache comparison and batch processing - v0.4.08
-- ✅ Google Event Manager improvements - v0.4.08
-
-### Q4 2025 - UI/UX Enhancements & Repository Organization
-
-**Frontend - Unity AVP (Yang)**:
-- ✅ Event system improvements (transparency, visibility, panel management) - v0.4.09
-- ✅ Turntable coordinate system with full rotation integration - v0.4.09
-- ✅ Time navigation controllers (consolidated day/month navigation) - v0.4.09
-- ✅ Event interaction improvements (selection, click handling, panel lifecycle) - v0.4.09
-
-**DAO & Governance (Zhong)**:
-- ✅ Root directory cleanup (consolidated 20+ markdown files)
-- ✅ Documentation standards (markdown organization methodology)
-- ✅ Screenshot organization system (automated tracking)
-- ✅ Contribution evaluation frameworks (Unity, Web, Backend tracking)
-
-### Current Work
-
-**In Progress**:
-- 🔄 Mobile Device Optimization - Performance and compatibility improvements
-
-**Planned**:
-- 📋 ISS Data Pod Visualization - Advanced data visualization interface
-- 📋 User Login Flow Enhancement - Streamlined authentication
-- 📋 Three.js Event Renderer - Web-based event visualization
-
-See [Changelog](./zhong/reviews/CHANGELOG.md) for detailed progress tracking.
+**Frontend (Yang)**:
+- ✅ Web visualization (Three.js) - Available at [circaevum.com](https://circaevum.com/)
+- ✅ Unity Apple Vision Pro - Active development
+- ✅ Unity Meta Quest - Active development
 
 ---
 
-## Projects
+## Quick Start
 
-### Yang (Frontend)
-
-**yang-web** (Three.js / Web):
-- Location: `yang/web/`
-- Status: ✅ **Working** - Deployed at [circaevum.com](https://circaevum.com/)
-- Features: Planetary time visualization, zoom controls, time markers, event rendering
-- Start: `cd yang/web && python3 -m http.server 8080`
-- See: [yang/web/CHANGELOG.md](./yang/web/CHANGELOG.md)
-
-**yang-avp** (Unity / Apple Vision Pro - TimeBox):
-- Location: `yang/unity/avp/`
-- Status: ✅ **Active Development** - v0.4.09+ (Q4 2025)
-- Features: 3D spatial calendar, event visualization, turntable rotation, time navigation
-- Recent: Event system improvements, coordinate transformations, UI controllers
-- See: [yang/unity/avp/CHANGELOG.md](./yang/unity/avp/CHANGELOG.md)
-
-**yang-quest** (Unity / Meta Quest - Calendarium):
-- Location: `yang/unity/quest/`
-- Status: ✅ **Active Development**
-- Features: VR calendar interface, spatial time navigation
-
-### Yin (Backend)
-
-**yin-nakama** (Nakama Backend):
-- Location: `yin/nakama/`
-- Status: ✅ **Active** - Used by Unity projects
-- Features: Device authentication, real-time sync, event storage, Google Calendar integration
-- Versions: v0.4.02-v0.4.07 (Q1-Q4 2025)
-
-**yin-timescale** (TimescaleDB Backend):
-- Location: `yin/timescale/`
-- Status: 📋 **Planned** - Q2 2025
-- Purpose: Time-series data storage and analytics
-
-**yin-rest** (REST API Backend):
-- Location: `yin/rest/`
-- Status: 📋 **Planned** - Q2-Q3 2025
-- Purpose: RESTful API for web and mobile clients
+**Web Visualization**:
+```bash
+cd yang/web
+python3 -m http.server 8080
+```
+Open http://localhost:8080 or visit [circaevum.com](https://circaevum.com/)
 
 ---
 
-## DAO Information
-
-**Smart Contract**: `GovER5Lthms3bLBqWub97yVrMmEogzX7xNjdXpPPCVZw` (Solana)
-**Realm**: https://app.realms.today/dao/FDerj19PyQytsD1rL4NGpSeXWT8d7WdRABBxxCEnDj6d
-
-**Legal Status**: Wyoming Decentralized Autonomous Organization LLC
-**Articles of Incorporation**: See [Addendum.md](./Addendum.md)
-
----
-
-## Getting Started
-
-### For Developers
-
-1. **Web Development**: See `yang/web/` - Start with `python3 -m http.server 8080`
-2. **Unity Development**: See `yang/unity/`
-3. **Backend Development**: See `yin/`
-4. **Architecture**: See `docs/architecture/`
-
-### For Contributors
-
-1. **Problem Tracking**: Tag commits with `PROBLEM-YIN-XXX` or `PROBLEM-YANG-XXX`
-2. **Platform Tags**: Include platform category `[yang-web]`, `[yang-avp]`, etc.
-3. **Quarterly Reviews**: Contributions tracked in `zhong/tracking/`
-
----
-
-## Documentation
-
-### Architecture & Design
-- **[Architecture Overview](./docs/architecture/)** - System architecture documentation
-- **[Taiji Philosophy](./docs/philosophy/TAIJI_PHILOSOPHY.md)** - Philosophical foundation (Yin/Yang/Zhong)
-- **[Adapter System](./docs/architecture/ADAPTER_ARCHITECTURE.md)** - Pluggable backend/frontend adapters
-- **[Seed Structure](./docs/architecture/SEED_STRUCTURE.md)** - Yin-seed and Yang-seed architecture
-
-### Guides & Reference
-- **[Developer Guide](./docs/guides/DEVELOPER_GUIDE.md)** - Development workflows
-- **[User Guide](./docs/guides/USER_GUIDE.md)** - End-user documentation
-- **[Contribution Evaluation](./docs/CONTRIBUTION_EVALUATION.md)** - How contributions are tracked
-- **[Yang-Web Evaluation](./docs/YANG_WEB_EVALUATION_RECOMMENDATION.md)** - Web project tracking
-
-### Changelogs
-- **[Master Changelog](./zhong/reviews/CHANGELOG.md)** - All projects, quarterly tracking
-- **[Web Changelog](./yang/web/CHANGELOG.md)** - yang-web specific changes
-- **[AVP Changelog](./yang/unity/avp/CHANGELOG.md)** - TimeBox (Unity AVP) changes
-
----
-
-## Platform Availability
-
-Circaevum is available on multiple platforms:
-- **Web**: [circaevum.com](https://circaevum.com/) - Three.js visualization
-- **Apple Vision Pro**: TimeBox - Immersive spatial calendar (in development)
-- **Meta Quest**: Calendarium - VR calendar experience (in development)
-
----
-
-**Last Updated**: December 2025  
-**Maintained By**: Circaevum DAO - The Center Contract (Zhong - 中)  
-**Quarterly Reviews**: See [zhong/reviews/CHANGELOG.md](./zhong/reviews/CHANGELOG.md)
-
-**See [Consolidation Handoff](./zhong/reviews/CONSOLIDATION_2025-12-23.md) for full context on the consolidation!**
+**Note**: The official documentation, including any updates to this governance model or GitHub repository, can be found at https://github.com/Circaevum/circaevum-dao-phase-1 and will only be updated based on a majority decision of governance token holders.
