@@ -2,6 +2,8 @@
 
 This GitHub repository serves as the basis for how Circaevum operates as a DAO. It consolidates progress notes and tracks development across all Circaevum projects, providing the framework for DAO governance and contribution tracking. Note: Individual project repositories contain the actual code; this repository focuses on tracking, documentation, and administrative processes.
 
+During Phase 1, this process will probably change. This GitHub will probably change. We're exploring how this works. How we can build an autonomous flywheel that incentivizes transparency and continuous innovation. We are welcome to interpretations, suggestions, and other ideals that continue exploring the nature of this. 
+
 **Circaevum** is a 3D calendar and time visualization system designed to enhance the human cognitive faculties of memory and planning. To learn more, visit https://circaevum.com/.
 
 ## Smart Contract Information
@@ -101,6 +103,9 @@ This tokenomics model ensures perfect equilibrium between contributors and inves
 
 **Frontend (Yang)**:
 - ✅ Web visualization (Three.js) - Available at [circaevum.com](https://circaevum.com/)
+- 📋 Account configuration and data upload/management (next priority)
+  - yang-web yin-seed: Backend adapters/APIs
+  - yin yang-seed: UI components
 - ✅ Unity Apple Vision Pro - Active development
 - ✅ Unity Meta Quest - Active development
 

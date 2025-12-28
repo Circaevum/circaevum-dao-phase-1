@@ -172,10 +172,13 @@ Major archived projects include:
 ## Next Steps
 
 1. **Extract Unity Universal**: Move shared code from AVP/Quest to `universal/`
-2. **Create New Repos**: Create fresh GitHub repos with naming conventions as needed
-3. **Quarterly Reviews**: Use `zhong/reviews/CHANGELOG.md`
-4. **Problem Tracking**: Use `zhong/problems/`
-5. **Push Consolidation**: When ready, push all consolidation work to GitHub
+2. **Push Consolidation**: When ready, push all consolidation work to GitHub
+3. **Account Configuration & Data Upload/Management**: 
+   - yang-web yin-seed: Backend adapters/APIs
+   - yin yang-seed: UI components
+4. **Create New Repos**: Create fresh GitHub repos with naming conventions as needed
+5. **Quarterly Reviews**: Use `zhong/reviews/CHANGELOG.md`
+6. **Problem Tracking**: Use `zhong/problems/`
 
 ---
 
