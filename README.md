@@ -1,6 +1,8 @@
 # Circaevum DAO - Phase 1
 
-This GitHub repository serves as the basis for how Circaevum operates as a DAO. It consolidates progress notes and tracks development across all Circaevum projects, providing the framework for DAO governance and contribution tracking. Note: Individual project repositories contain the actual code; this repository focuses on tracking, documentation, and administrative processes.
+This GitHub repository serves as the basis for how Circaevum operates as a DAO. It consolidates progress notes and tracks development across all Circaevum projects, providing the framework for DAO governance and contribution tracking. 
+
+**Repository Structure**: This repository focuses on tracking, documentation, and administrative processes. Individual project code repositories are maintained separately to avoid nested git repository conflicts. The `yin/` (backend) and `yang/` (frontend) project directories are located at the parent level alongside this DAO repository.
 
 During Phase 1, this process will probably change. This GitHub will probably change. We're exploring how this works. How we can build an autonomous flywheel that incentivizes transparency and continuous innovation. We are welcome to interpretations, suggestions, and other ideals that continue exploring the nature of this. 
 
@@ -111,14 +113,25 @@ This tokenomics model ensures perfect equilibrium between contributors and inves
 
 ---
 
+## Repository Organization
+
+**Current Structure** (as of January 2026):
+- **`circaevum-dao-phase-1/`** (this repo) - DAO governance, tracking, documentation
+- **`yin/`** (separate directory) - Backend projects (nakama, timescale, rest, yang-seed)
+- **`yang/`** (separate directory) - Frontend projects (web, unity/avp, unity/quest)
+
+Individual projects maintain their own git repositories. This separation avoids nested git repository conflicts while keeping the DAO repository focused on governance and tracking.
+
 ## Quick Start
 
 **Web Visualization**:
 ```bash
-cd yang/web
+cd ../yang/web
 python3 -m http.server 8080
 ```
 Open http://localhost:8080 or visit [circaevum.com](https://circaevum.com/)
+
+**Note**: Project directories (`yin/`, `yang/`) are located at the parent level alongside this DAO repository.
 
 ---
 

@@ -81,26 +81,35 @@ circaevum-dao-phase-1/
 
 ---
 
-## Option 2: Separate Repos (Current Plan)
+## Option 2: Separate Repos (Current Implementation - January 2026)
 
 ### Structure
 
 ```
-circaevum-dao-phase-1/            # DAO only (Articles point here)
-├── README.md
-├── Addendum.md
-└── Links to:
-    - circaevum-zhong (admin)
-    - circaevum-yang (frontend)
-    - circaevum-yin (backend)
-
-circaevum-zhong/                  # Admin hub (separate)
-├── zhong/                        # Admin process
-├── tracking/
-└── Links to code repos
-
-circaevum-yang/                   # Frontend (separate)
-circaevum-yin/                    # Backend (separate)
+CIR/                              # Root directory
+├── circaevum-dao-phase-1/        # DAO only (Articles point here)
+│   ├── README.md
+│   ├── Addendum.md
+│   ├── zhong/                    # Admin process (transparent)
+│   │   ├── dao/phase-1/
+│   │   ├── tracking/
+│   │   ├── problems/
+│   │   ├── milestones/
+│   │   └── reviews/
+│   └── docs/                     # Documentation
+│
+├── yin/                          # Backend projects (separate)
+│   ├── nakama/
+│   ├── timescale/
+│   ├── rest/
+│   └── yang-seed/
+│
+└── yang/                          # Frontend projects (separate)
+    ├── web/                      # Three.js (yang-web)
+    └── unity/                    # Unity projects
+        ├── avp/                  # Apple Vision Pro (TimeBox)
+        ├── quest/                # Meta Quest (Calendarium)
+        └── TimeBox-reference/    # Reference clone for debugging
 ```
 
 ### Pros
@@ -330,20 +339,21 @@ yang/unity/
 
 ---
 
-## Final Recommendation
+## Current Implementation (January 2026)
 
-**Go with Option 1 (Monorepo)** because:
+**Option 2 (Separate Repos) is now the active structure** because:
 
-1. ✅ **Transparency**: Admin process visible alongside code
-2. ✅ **Simplicity**: One repo, one place to point Articles to
-3. ✅ **Visitor-Friendly**: Easy to see full picture
-4. ✅ **Manageable**: With good organization and .gitignore
+1. ✅ **Avoids Nested Git Conflicts**: Unity projects and other large repos can be managed independently
+2. ✅ **Clean Separation**: DAO governance separate from code repositories
+3. ✅ **Better Performance**: Smaller repos, faster git operations
+4. ✅ **Flexible Management**: Each project can have its own versioning and release cycle
 
 **Key Points**:
-- Articles point to `circaevum-dao-phase-1` (main repo)
-- Zhong admin process is in `zhong/` (transparent)
-- All code in `yang/` and `yin/` (organized)
-- Unity structure: `universal/` + platform folders
+- Articles point to `circaevum-dao-phase-1` (DAO repo)
+- Zhong admin process is in `circaevum-dao-phase-1/zhong/` (transparent)
+- Code projects in separate `yin/` and `yang/` directories at parent level
+- Each Unity project maintains its own git repository
+- DAO repo tracks contributions and governance without containing code
 
-**Result**: Transparent, organized, manageable monorepo that serves both DAO governance and code development.
+**Result**: Clean separation that avoids git conflicts while maintaining transparency through the DAO repository's tracking and documentation.
 

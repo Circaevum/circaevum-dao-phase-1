@@ -28,6 +28,9 @@
 - **[Unity Adapter](./reference/UNITY_ADAPTER.md)** - Unity backend adapter pattern
 - **[React Role](./reference/REACT_ROLE.md)** - React's role in the architecture
 
+### Organization
+- **[Repository Organization Strategy](./REPO_ORGANIZATION_STRATEGY.md)** - Current repository structure and organization approach
+
 ---
 
 ## Documentation Philosophy
@@ -38,5 +41,5 @@
 
 ---
 
-**Last Updated**: March 2025 (Q1 2025)
+**Last Updated**: January 2026 (Q1 2026)
 
